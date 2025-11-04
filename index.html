@@ -14,13 +14,13 @@
 
     <!-- Viewport Meta-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 
     <!-- Template Favicon & Icons Start -->
     <link rel="icon" href="img/favicon/favicon.ico" sizes="any">
     <link rel="icon" href="img/favicon/icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
-    <link rel="manifest" href="img/favicon/manifest.webmanifest">
+    <link rel="manifest" href="img/favicon/manifest.webmanifest" crossorigin="use-credentials">
     <!-- Template Favicon & Icons End -->
 
     <!-- Facebook Metadata Start -->
@@ -33,9 +33,9 @@
     <!-- Facebook Metadata End -->
 
     <!-- Template Styles Start -->
-    <link rel="stylesheet" type="text/css" href="css/loaders/loader.css">
-    <link rel="stylesheet" type="text/css" href="css/plugins.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/loaders/loader.css" blocking=render>
+    <link rel="stylesheet" type="text/css" href="css/plugins.css" blocking=render>
+    <link rel="stylesheet" type="text/css" href="css/main.css" blocking=render>
     <!-- Template Styles End -->
 
     <!-- Custom Browser Color Start -->
@@ -170,7 +170,7 @@
           <!-- Intro Background Start -->
           <div class="intro__background intro-bg-03">
             <div class="intro-bg-03__01" data-speed="0.2">
-              <img src="img/services/hero-01.png" alt="">
+              <img src="img/services/hero-01.avif" alt="Guillaume Pelletier" fetchpriority=high>
             </div>
             <!-- <div class="intro-bg-03__02" data-speed="0.8">
               <img src="./img/features/flash.png" alt="">
@@ -195,7 +195,7 @@
                     </span>
                     <span class="title__line d-md-flex align-items-center justify-content-xl-start loading__item">
                       <span>entrepreneurs</span>
-                      <a class="btn btn-circle-text hover-circle" href="https://calendly.com/dontbecool/avant-vente">
+                      <a class="btn btn-circle-text hover-circle" href="https://calendly.com/dontbecool/avant-vente" target="_blank" aria-label="Discutons en visio !">
                         <em></em>
                         <span class="btn-caption">Discutons <br>en visio !</span>
                       </a>
@@ -203,7 +203,7 @@
                   </h1>
                   <div class="headline__datamobile loading__fade">
                     <p>Hello! Je suis Guillaume Pelletier, chef de projets web & développeur, spécialisé en WordPress et WooCommerce, et basé à Reims</p>
-                    <a class="btn btn-circle-text hover-circle" href="https://calendly.com/dontbecool/avant-vente">
+                    <a class="btn btn-circle-text hover-circle" href="https://calendly.com/dontbecool/avant-vente" target="_blank" aria-label="Discutons en visio !">
                       <em></em>
                       <span class="btn-caption">Discutons <br>en visio !</span>
                     </a>
@@ -341,8 +341,8 @@
 
                           <!-- Project Block - Title with Image Start -->
                           <div class="project__block no-padding no-margin project-image-bg">
-                            <img class="project-image-bg__portrait" src="./img/portfolio/ecommerce-portrait.png" alt="Project Illustration">
-                            <img class="project-image-bg__landscape" src="./img/portfolio/ecommerce-landscape.png" alt="Project Illustration">
+                            <img class="project-image-bg__portrait" src="./img/portfolio/ecommerce-portrait.avif" alt="Illustration ecommerce">
+                            <img class="project-image-bg__landscape" src="./img/portfolio/ecommerce-landscape.avif" alt="Illustration ecommerce">
                             <div class="project__title">
                               <h3 class="light">ecommerce</h3>
                             </div>
@@ -367,9 +367,9 @@
                                         <div class="col-12 col-md-6 grid-item pdata__item">
                                           
                                           <span class="portfolio-cat" style="display: inline-flex;">
-                                            <img src="./img/portfolio/travail.png" alt="Project Illustration" style="height:32px; width:32px;">
-                                            <img src="./img/portfolio/travail.png" alt="Project Illustration" style="height:32px; width:32px; filter: opacity(0.2);">
-                                            <img src="./img/portfolio/travail.png" alt="Project Illustration" style="height:32px; width:32px; filter: opacity(0.2);">
+                                            <img src="./img/portfolio/travail.avif" alt="Icone 1 travail de gestion" style="height:32px; width:32px;">
+                                            <img src="./img/portfolio/travail.avif" alt="Icone 2 travail de gestion" style="height:32px; width:32px; filter: opacity(0.2);">
+                                            <img src="./img/portfolio/travail.avif" alt="Icone 3 travail de gestion" style="height:32px; width:32px; filter: opacity(0.2);">
                                           </span>
                                           <p class="data__title tagline-chapter small type-basic-160lh">Gestion</p>
                                           <p class="data__descr small type-basic-160lh">Simple</p>
@@ -378,9 +378,9 @@
                                         <div class="col-12 col-md-6 grid-item pdata__item">
                                           
                                           <span class="portfolio-cat" style="display: inline-flex;">
-                                            <img src="./img/portfolio/argent.png" alt="Project Illustration" style="height:32px; width:32px;">
-                                            <img src="./img/portfolio/argent.png" alt="Project Illustration" style="height:32px; width:32px;">
-                                            <img src="./img/portfolio/argent.png" alt="Project Illustration" style="height:32px; width:32px; filter: opacity(0.2);">
+                                            <img src="./img/portfolio/argent.avif" alt="Icone 1 coût" style="height:32px; width:32px;">
+                                            <img src="./img/portfolio/argent.avif" alt="Icone 2 coût" style="height:32px; width:32px;">
+                                            <img src="./img/portfolio/argent.avif" alt="Icone 3 coût" style="height:32px; width:32px; filter: opacity(0.2);">
                                           </span>
                                           <p class="data__title tagline-chapter small type-basic-160lh">Coût</p>
                                           <p class="data__descr small type-basic-160lh">Moyen</p>
@@ -389,9 +389,9 @@
                                         <div class="col-12 col-md-6 grid-item pdata__item">
                                           
                                           <span class="portfolio-cat" style="display: inline-flex;">
-                                            <img src="./img/portfolio/sablier.png" alt="Project Illustration" style="height:32px; width:32px;">
-                                            <img src="./img/portfolio/sablier.png" alt="Project Illustration" style="height:32px; width:32px; filter: opacity(0.2);">
-                                            <img src="./img/portfolio/sablier.png" alt="Project Illustration" style="height:32px; width:32px; filter: opacity(0.2);">
+                                            <img src="./img/portfolio/sablier.avif" alt="Icone 1 délai" style="height:32px; width:32px;">
+                                            <img src="./img/portfolio/sablier.avif" alt="Icone 2 délai" style="height:32px; width:32px; filter: opacity(0.2);">
+                                            <img src="./img/portfolio/sablier.avif" alt="Icone 3 délai" style="height:32px; width:32px; filter: opacity(0.2);">
                                           </span>
                                           <p class="data__title tagline-chapter small type-basic-160lh">Délai</p>
                                           <p class="data__descr small type-basic-160lh">Court</p>
@@ -445,42 +445,42 @@
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/setting.png" alt="Work Illustration">
+                                      <img src="./img/features/setting.avif" alt="Icone administration serveur">
                                       <h6 style="font-weight: bold;">Administration Serveur</h6>
                                       <p><small>Le serveur qui héberge votre site est configuré et mis en service.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/computer.png" alt="Work Illustration">
+                                      <img src="./img/features/computer.avif" alt="Icone développements">
                                       <h6 style="font-weight: bold;">Développements</h6>
                                       <p><small>Les fonctionnalités avancées dont vous avez besoin pour votre projet sont listées / développées / implémentées.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/mobile.png" alt="Work Illustration">
+                                      <img src="./img/features/mobile.avif" alt="Icone design responsive">
                                       <h6 style="font-weight: bold;">Design responsive</h6>
                                       <p><small>Votre interface web est conçue avec le souci d’offrir à vos visiteurs une expérience utile, agréable et unique.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/text.png" alt="Work Illustration">
+                                      <img src="./img/features/text.avif" alt="Icone contenus">
                                       <h6 style="font-weight: bold;">Contenus</h6>
                                       <p><small>Sur la base de vos informations, les meilleurs contenus visuels (images, icones, illustrations…) sont sélectionnés/intégrés.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/link.png" alt="Work Illustration">
+                                      <img src="./img/features/link.avif" alt="Icone référencement naturel SEO">
                                       <h6 style="font-weight: bold;">Référencement naturel (SEO)</h6>
                                       <p><small>Les outils indispensables au bon référencement de votre site sont mis en place.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/rocket.png" alt="Work Illustration">
+                                      <img src="./img/features/rocket.avif" alt="Icone performance de chargement">
                                       <h6 style="font-weight: bold;">Performance de chargement</h6>
                                       <p><small>Les sites web sont systématiquement optimisés pour la mise en cache des fichiers et images.</small></p>
                                     </div>
@@ -527,28 +527,28 @@
                                   </div>
                                   <div class="col-6 col-md-3 col-xl-3 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/target.png" alt="Work Illustration">
+                                      <img src="./img/features/target.avif" alt="Icone écoute des besoins">
                                       <h6 style="font-weight: bold;">Ecoute de vos besoins</h6>
                                       <p><small>Pour chaque projet, nous prenons le temps de caractériser toutes vos demandes et vous orienter au mieux.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-3 col-xl-3 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/chat-bubble.png" alt="Work Illustration">
+                                      <img src="./img/features/chat-bubble.avif" alt="Icone communication">
                                       <h6 style="font-weight: bold;">Communication transparente</h6>
                                       <p><small>J'échange avec vous tout au long de nos processus, pour vous informer de l’avancement du projet.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-3 col-xl-3 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/calendar.png" alt="Work Illustration">
+                                      <img src="./img/features/calendar.avif" alt="Icone livraison">
                                       <h6 style="font-weight: bold;">Livraison</h6>
                                       <p><small>Je livre dans le délai convenu dans votre devis – si toutes les informations nécessaires sont transmises.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-3 col-xl-3 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/tools.png" alt="Work Illustration">
+                                      <img src="./img/features/tools.avif" alt="Icone résolution de bugs">
                                       <h6 style="font-weight: bold;">Résolution de bugs</h6>
                                       <p><small>Je corrige gratuitement les bugs de fonctionnement ou d’affichage jusqu’à 1 mois après la mise en ligne.</small></p>
                                     </div>
@@ -571,7 +571,7 @@
                                     <div class="project__feedback">
                                       <div class="feedback__fauthor d-flex">
                                         <div class="fauthor__avatar">
-                                          <img src="img/testimonials/Karole.webp" alt="Review Author">
+                                          <img src="img/testimonials/Karole.webp" alt="Photo profil de cliente Karolle-Anne Taillé">
                                         </div>
                                         <div class="fauthor__info d-flex flex-column justify-content-center">
                                           <h4 class="fauthor__name">Karolle-Anne Taillé</h4>
@@ -605,7 +605,7 @@
                             <div class="container-fluid p-0">
                               <div class="row g-0">
                                 <div class="col-12 d-flex justify-content-center">
-                                  <a class="btn btn-circle-text hover-circle" href="https://calendly.com/dontbecool/avant-vente" target="_blank">
+                                  <a class="btn btn-circle-text hover-circle" href="https://calendly.com/dontbecool/avant-vente" target="_blank" aria-label="Discutons en visio !">
                                     <em></em>
                                     <span class="btn-caption">Discutons <br>en visio !</span>
                                   </a>
@@ -641,8 +641,8 @@
 
                           <!-- Project Block - Title with Image Start -->
                           <div class="project__block no-padding no-margin project-image-bg">
-                            <img class="project-image-bg__portrait" src="./img/portfolio/marketplace-portrait.png" alt="Project Illustration">
-                            <img class="project-image-bg__landscape" src="./img/portfolio/marketplace-landscape.png" alt="Project Illustration">
+                            <img class="project-image-bg__portrait" src="./img/portfolio/marketplace-portrait.avif" alt="Project Illustration">
+                            <img class="project-image-bg__landscape" src="./img/portfolio/marketplace-landscape.avif" alt="Project Illustration">
                             <div class="project__title">
                               <h3 class="light">Marketplace</h3>
                             </div>
@@ -666,9 +666,9 @@
                                         <div class="col-12 col-md-6 grid-item pdata__item">
                                           <p class="data__title tagline-chapter small type-basic-160lh">Gestion</p>
                                           <span style="display: inline-flex;">
-                                            <img src="./img/portfolio/travail.png" alt="Project Illustration" style="height:32px; width:32px;">
-                                            <img src="./img/portfolio/travail.png" alt="Project Illustration" style="height:32px; width:32px;">
-                                            <img src="./img/portfolio/travail.png" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img src="./img/portfolio/travail.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img src="./img/portfolio/travail.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img src="./img/portfolio/travail.avif" alt="Project Illustration" style="height:32px; width:32px;">
                                           </span>
                                           <p class="data__descr small type-basic-160lh">Complexe</p>
                                         </div>
@@ -676,9 +676,9 @@
                                         <div class="col-12 col-md-6 grid-item pdata__item">
                                           <p class="data__title tagline-chapter small type-basic-160lh">Coût</p>
                                           <span style="display: inline-flex;">
-                                            <img src="./img/portfolio/argent.png" alt="Project Illustration" style="height:32px; width:32px;">
-                                            <img src="./img/portfolio/argent.png" alt="Project Illustration" style="height:32px; width:32px;">
-                                            <img src="./img/portfolio/argent.png" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img src="./img/portfolio/argent.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img src="./img/portfolio/argent.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img src="./img/portfolio/argent.avif" alt="Project Illustration" style="height:32px; width:32px;">
                                           </span>
                                           <p class="data__descr small type-basic-160lh">Elevé</p>
                                         </div>
@@ -686,9 +686,9 @@
                                         <div class="col-12 col-md-6 grid-item pdata__item">
                                           <p class="data__title tagline-chapter small type-basic-160lh">Délai</p>
                                           <span style="display: inline-flex;">
-                                            <img src="./img/portfolio/sablier.png" alt="Project Illustration" style="height:32px; width:32px;">
-                                            <img src="./img/portfolio/sablier.png" alt="Project Illustration" style="height:32px; width:32px;">
-                                            <img src="./img/portfolio/sablier.png" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img src="./img/portfolio/sablier.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img src="./img/portfolio/sablier.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img src="./img/portfolio/sablier.avif" alt="Project Illustration" style="height:32px; width:32px;">
                                           </span>
                                           <p class="data__descr small type-basic-160lh">Long</p>
                                         </div>
@@ -741,42 +741,42 @@
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/setting.png" alt="Work Illustration">
+                                      <img src="./img/features/setting.avif" alt="Work Illustration">
                                       <h6 style="font-weight: bold;">Administration Serveur</h6>
                                       <p><small>Le serveur qui héberge votre site est configuré et mis en service.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/computer.png" alt="Work Illustration">
+                                      <img src="./img/features/computer.avif" alt="Work Illustration">
                                       <h6 style="font-weight: bold;">Développements</h6>
                                       <p><small>Les fonctionnalités avancées dont vous avez besoin pour votre projet sont listées / développées / implémentées.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/mobile.png" alt="Work Illustration">
+                                      <img src="./img/features/mobile.avif" alt="Work Illustration">
                                       <h6 style="font-weight: bold;">Design responsive</h6>
                                       <p><small>Votre interface web est conçue avec le souci d’offrir à vos visiteurs une expérience utile, agréable et unique.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/text.png" alt="Work Illustration">
+                                      <img src="./img/features/text.avif" alt="Work Illustration">
                                       <h6 style="font-weight: bold;">Contenus</h6>
                                       <p><small>Sur la base de vos informations, les meilleurs contenus visuels (images, icones, illustrations…) sont sélectionnés/intégrés.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/link.png" alt="Work Illustration">
+                                      <img src="./img/features/link.avif" alt="Work Illustration">
                                       <h6 style="font-weight: bold;">Référencement naturel (SEO)</h6>
                                       <p><small>Les outils indispensables au bon référencement de votre site sont mis en place.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/rocket.png" alt="Work Illustration">
+                                      <img src="./img/features/rocket.avif" alt="Work Illustration">
                                       <h6 style="font-weight: bold;">Performance de chargement</h6>
                                       <p><small>Les sites web sont systématiquement optimisés pour la mise en cache des fichiers et images.</small></p>
                                     </div>
@@ -822,28 +822,28 @@
                                   </div>
                                   <div class="col-6 col-md-3 col-xl-3 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/target.png" alt="Work Illustration">
+                                      <img src="./img/features/target.avif" alt="Work Illustration">
                                       <h6 style="font-weight: bold;">Ecoute de vos besoins</h6>
                                       <p><small>Pour chaque projet, nous prenons le temps de caractériser toutes vos demandes et vous orienter au mieux.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-3 col-xl-3 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/chat-bubble.png" alt="Work Illustration">
+                                      <img src="./img/features/chat-bubble.avif" alt="Work Illustration">
                                       <h6 style="font-weight: bold;">Communication transparente</h6>
                                       <p><small>J'échange avec vous tout au long de nos processus, pour vous informer de l’avancement du projet.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-3 col-xl-3 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/calendar.png" alt="Work Illustration">
+                                      <img src="./img/features/calendar.avif" alt="Work Illustration">
                                       <h6 style="font-weight: bold;">Livraison</h6>
                                       <p><small>Je livre dans le délai convenu dans votre devis – si toutes les informations nécessaires sont transmises.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-3 col-xl-3 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/tools.png" alt="Work Illustration">
+                                      <img src="./img/features/tools.avif" alt="Work Illustration">
                                       <h6 style="font-weight: bold;">Résolution de bugs</h6>
                                       <p><small>Je corrige gratuitement les bugs de fonctionnement ou d’affichage jusqu’à 1 mois après la mise en ligne.</small></p>
                                     </div>
@@ -900,7 +900,7 @@
                             <div class="container-fluid p-0">
                               <div class="row g-0">
                                 <div class="col-12 d-flex justify-content-center">
-                                  <a class="btn btn-circle-text hover-circle" href="https://calendly.com/dontbecool/avant-vente" target="_blank">
+                                  <a class="btn btn-circle-text hover-circle" href="https://calendly.com/dontbecool/avant-vente" target="_blank" aria-label="Discutons en visio !">
                                     <em></em>
                                     <span class="btn-caption">Discutons <br>en visio !</span>
                                   </a>
@@ -936,8 +936,8 @@
 
                           <!-- Project Block - Title with Image Start -->
                           <div class="project__block no-padding no-margin project-image-bg">
-                            <img class="project-image-bg__portrait" src="./img/portfolio/reservation-portrait.png" alt="Project Illustration">
-                            <img class="project-image-bg__landscape" src="./img/portfolio/reservation-landscape.png" alt="Project Illustration">
+                            <img class="project-image-bg__portrait" src="./img/portfolio/reservation-portrait.avif" alt="Project Illustration">
+                            <img class="project-image-bg__landscape" src="./img/portfolio/reservation-landscape.avif" alt="Project Illustration">
                             <div class="project__title">
                               <h3 class="light">Plateformes de réservation</h3>
                             </div>
@@ -961,9 +961,9 @@
                                         <div class="col-12 col-md-6 grid-item pdata__item">
                                           <p class="data__title tagline-chapter small type-basic-160lh">Gestion</p>
                                           <span style="display: inline-flex;">
-                                            <img src="./img/portfolio/travail.png" alt="Project Illustration" style="height:32px; width:32px;">
-                                            <img src="./img/portfolio/travail.png" alt="Project Illustration" style="height:32px; width:32px; filter: opacity(0.2);">
-                                            <img src="./img/portfolio/travail.png" alt="Project Illustration" style="height:32px; width:32px; filter: opacity(0.2);">
+                                            <img src="./img/portfolio/travail.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img src="./img/portfolio/travail.avif" alt="Project Illustration" style="height:32px; width:32px; filter: opacity(0.2);">
+                                            <img src="./img/portfolio/travail.avif" alt="Project Illustration" style="height:32px; width:32px; filter: opacity(0.2);">
                                           </span>
                                           <p class="data__descr small type-basic-160lh">Simple</p>
                                         </div>
@@ -971,9 +971,9 @@
                                         <div class="col-12 col-md-6 grid-item pdata__item">
                                           <p class="data__title tagline-chapter small type-basic-160lh">Coût</p>
                                           <span style="display: inline-flex;">
-                                            <img src="./img/portfolio/argent.png" alt="Project Illustration" style="height:32px; width:32px;">
-                                            <img src="./img/portfolio/argent.png" alt="Project Illustration" style="height:32px; width:32px;">
-                                            <img src="./img/portfolio/argent.png" alt="Project Illustration" style="height:32px; width:32px; filter: opacity(0.2);">
+                                            <img src="./img/portfolio/argent.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img src="./img/portfolio/argent.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img src="./img/portfolio/argent.avif" alt="Project Illustration" style="height:32px; width:32px; filter: opacity(0.2);">
                                           </span>
                                           <p class="data__descr small type-basic-160lh">Moyen</p>
                                         </div>
@@ -981,9 +981,9 @@
                                         <div class="col-12 col-md-6 grid-item pdata__item">
                                           <p class="data__title tagline-chapter small type-basic-160lh">Délai</p>
                                           <span style="display: inline-flex;">
-                                            <img src="./img/portfolio/sablier.png" alt="Project Illustration" style="height:32px; width:32px;">
-                                            <img src="./img/portfolio/sablier.png" alt="Project Illustration" style="height:32px; width:32px; filter: opacity(0.2);">
-                                            <img src="./img/portfolio/sablier.png" alt="Project Illustration" style="height:32px; width:32px; filter: opacity(0.2);">
+                                            <img src="./img/portfolio/sablier.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img src="./img/portfolio/sablier.avif" alt="Project Illustration" style="height:32px; width:32px; filter: opacity(0.2);">
+                                            <img src="./img/portfolio/sablier.avif" alt="Project Illustration" style="height:32px; width:32px; filter: opacity(0.2);">
                                           </span>
                                           <p class="data__descr small type-basic-160lh">Court</p>
                                         </div>
@@ -1037,42 +1037,42 @@
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/setting.png" alt="Work Illustration">
+                                      <img src="./img/features/setting.avif" alt="Work Illustration">
                                       <h6 style="font-weight: bold;">Administration Serveur</h6>
                                       <p><small>Le serveur qui héberge votre site est configuré et mis en service.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/computer.png" alt="Work Illustration">
+                                      <img src="./img/features/computer.avif" alt="Work Illustration">
                                       <h6 style="font-weight: bold;">Développements</h6>
                                       <p><small>Les fonctionnalités avancées dont vous avez besoin pour votre projet sont listées / développées / implémentées.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/mobile.png" alt="Work Illustration">
+                                      <img src="./img/features/mobile.avif" alt="Work Illustration">
                                       <h6 style="font-weight: bold;">Design responsive</h6>
                                       <p><small>Votre interface web est conçue avec le souci d’offrir à vos visiteurs une expérience utile, agréable et unique.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/text.png" alt="Work Illustration">
+                                      <img src="./img/features/text.avif" alt="Work Illustration">
                                       <h6 style="font-weight: bold;">Contenus</h6>
                                       <p><small>Sur la base de vos informations, les meilleurs contenus visuels (images, icones, illustrations…) sont sélectionnés/intégrés.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/link.png" alt="Work Illustration">
+                                      <img src="./img/features/link.avif" alt="Work Illustration">
                                       <h6 style="font-weight: bold;">Référencement naturel (SEO)</h6>
                                       <p><small>Les outils indispensables au bon référencement de votre site sont mis en place.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/rocket.png" alt="Work Illustration">
+                                      <img src="./img/features/rocket.avif" alt="Work Illustration">
                                       <h6 style="font-weight: bold;">Performance de chargement</h6>
                                       <p><small>Les sites web sont systématiquement optimisés pour la mise en cache des fichiers et images.</small></p>
                                     </div>
@@ -1118,28 +1118,28 @@
                                   </div>
                                   <div class="col-6 col-md-3 col-xl-3 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/target.png" alt="Work Illustration">
+                                      <img src="./img/features/target.avif" alt="Work Illustration">
                                       <h6 style="font-weight: bold;">Ecoute de vos besoins</h6>
                                       <p><small>Pour chaque projet, nous prenons le temps de caractériser toutes vos demandes et vous orienter au mieux.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-3 col-xl-3 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/chat-bubble.png" alt="Work Illustration">
+                                      <img src="./img/features/chat-bubble.avif" alt="Work Illustration">
                                       <h6 style="font-weight: bold;">Communication transparente</h6>
                                       <p><small>J'échange avec vous tout au long de nos processus, pour vous informer de l’avancement du projet.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-3 col-xl-3 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/calendar.png" alt="Work Illustration">
+                                      <img src="./img/features/calendar.avif" alt="Work Illustration">
                                       <h6 style="font-weight: bold;">Livraison</h6>
                                       <p><small>Je livre dans le délai convenu dans votre devis – si toutes les informations nécessaires sont transmises.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-3 col-xl-3 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/tools.png" alt="Work Illustration">
+                                      <img src="./img/features/tools.avif" alt="Work Illustration">
                                       <h6 style="font-weight: bold;">Résolution de bugs</h6>
                                       <p><small>Je corrige gratuitement les bugs de fonctionnement ou d’affichage jusqu’à 1 mois après la mise en ligne.</small></p>
                                     </div>
@@ -1219,7 +1219,7 @@
                             <div class="container-fluid p-0">
                               <div class="row g-0">
                                 <div class="col-12 d-flex justify-content-center">
-                                  <a class="btn btn-circle-text hover-circle" href="https://calendly.com/dontbecool/avant-vente" target="_blank">
+                                  <a class="btn btn-circle-text hover-circle" href="https://calendly.com/dontbecool/avant-vente" target="_blank" aria-label="Discutons en visio !">
                                     <em></em>
                                     <span class="btn-caption">Discutons <br>en visio !</span>
                                   </a>
@@ -1255,8 +1255,8 @@
 
                           <!-- Project Block - Title with Image Start -->
                           <div class="project__block no-padding no-margin project-image-bg">
-                            <img class="project-image-bg__portrait" src="./img/portfolio/abonnement-portrait.png" alt="Project Illustration">
-                            <img class="project-image-bg__landscape" src="./img/portfolio/abonnement-landscape.png" alt="Project Illustration">
+                            <img class="project-image-bg__portrait" src="./img/portfolio/abonnement-portrait.avif" alt="Project Illustration">
+                            <img class="project-image-bg__landscape" src="./img/portfolio/abonnement-landscape.avif" alt="Project Illustration">
                             <div class="project__title">
                               <h3 class="light">Contenus sur abonnement</h3>
                             </div>
@@ -1280,9 +1280,9 @@
                                         <div class="col-12 col-md-6 grid-item pdata__item">
                                           <p class="data__title tagline-chapter small type-basic-160lh">Gestion</p>
                                           <span style="display: inline-flex;">
-                                            <img src="./img/portfolio/travail.png" alt="Project Illustration" style="height:32px; width:32px;">
-                                            <img src="./img/portfolio/travail.png" alt="Project Illustration" style="height:32px; width:32px;">
-                                            <img src="./img/portfolio/travail.png" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img src="./img/portfolio/travail.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img src="./img/portfolio/travail.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img src="./img/portfolio/travail.avif" alt="Project Illustration" style="height:32px; width:32px;">
                                           </span>
                                           <p class="data__descr small type-basic-160lh">Complexe</p>
                                         </div>
@@ -1290,9 +1290,9 @@
                                         <div class="col-12 col-md-6 grid-item pdata__item">
                                           <p class="data__title tagline-chapter small type-basic-160lh">Coût</p>
                                           <span style="display: inline-flex;">
-                                            <img src="./img/portfolio/argent.png" alt="Project Illustration" style="height:32px; width:32px;">
-                                            <img src="./img/portfolio/argent.png" alt="Project Illustration" style="height:32px; width:32px;">
-                                            <img src="./img/portfolio/argent.png" alt="Project Illustration" style="height:32px; width:32px; filter: opacity(0.2);">
+                                            <img src="./img/portfolio/argent.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img src="./img/portfolio/argent.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img src="./img/portfolio/argent.avif" alt="Project Illustration" style="height:32px; width:32px; filter: opacity(0.2);">
                                           </span>
                                           <p class="data__descr small type-basic-160lh">Moyen</p>
                                         </div>
@@ -1300,9 +1300,9 @@
                                         <div class="col-12 col-md-6 grid-item pdata__item">
                                           <p class="data__title tagline-chapter small type-basic-160lh">Délai</p>
                                           <span style="display: inline-flex;">
-                                            <img src="./img/portfolio/sablier.png" alt="Project Illustration" style="height:32px; width:32px;">
-                                            <img src="./img/portfolio/sablier.png" alt="Project Illustration" style="height:32px; width:32px;">
-                                            <img src="./img/portfolio/sablier.png" alt="Project Illustration" style="height:32px; width:32px; filter: opacity(0.2);">
+                                            <img src="./img/portfolio/sablier.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img src="./img/portfolio/sablier.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img src="./img/portfolio/sablier.avif" alt="Project Illustration" style="height:32px; width:32px; filter: opacity(0.2);">
                                           </span>
                                           <p class="data__descr small type-basic-160lh">Moyen</p>
                                         </div>
@@ -1356,42 +1356,42 @@
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/setting.png" alt="Work Illustration">
+                                      <img src="./img/features/setting.avif" alt="Work Illustration">
                                       <h6 style="font-weight: bold;">Administration Serveur</h6>
                                       <p><small>Le serveur qui héberge votre site est configuré et mis en service.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/computer.png" alt="Work Illustration">
+                                      <img src="./img/features/computer.avif" alt="Work Illustration">
                                       <h6 style="font-weight: bold;">Développements</h6>
                                       <p><small>Les fonctionnalités avancées dont vous avez besoin pour votre projet sont listées / développées / implémentées.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/mobile.png" alt="Work Illustration">
+                                      <img src="./img/features/mobile.avif" alt="Work Illustration">
                                       <h6 style="font-weight: bold;">Design responsive</h6>
                                       <p><small>Votre interface web est conçue avec le souci d’offrir à vos visiteurs une expérience utile, agréable et unique.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/text.png" alt="Work Illustration">
+                                      <img src="./img/features/text.avif" alt="Work Illustration">
                                       <h6 style="font-weight: bold;">Contenus</h6>
                                       <p><small>Sur la base de vos informations, les meilleurs contenus visuels (images, icones, illustrations…) sont sélectionnés/intégrés.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/link.png" alt="Work Illustration">
+                                      <img src="./img/features/link.avif" alt="Work Illustration">
                                       <h6 style="font-weight: bold;">Référencement naturel (SEO)</h6>
                                       <p><small>Les outils indispensables au bon référencement de votre site sont mis en place.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/rocket.png" alt="Work Illustration">
+                                      <img src="./img/features/rocket.avif" alt="Work Illustration">
                                       <h6 style="font-weight: bold;">Performance de chargement</h6>
                                       <p><small>Les sites web sont systématiquement optimisés pour la mise en cache des fichiers et images.</small></p>
                                     </div>
@@ -1438,28 +1438,28 @@
                                   </div>
                                   <div class="col-6 col-md-3 col-xl-3 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/target.png" alt="Work Illustration">
+                                      <img src="./img/features/target.avif" alt="Work Illustration">
                                       <h6 style="font-weight: bold;">Ecoute de vos besoins</h6>
                                       <p><small>Pour chaque projet, nous prenons le temps de caractériser toutes vos demandes et vous orienter au mieux.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-3 col-xl-3 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/chat-bubble.png" alt="Work Illustration">
+                                      <img src="./img/features/chat-bubble.avif" alt="Work Illustration">
                                       <h6 style="font-weight: bold;">Communication transparente</h6>
                                       <p><small>J'échange avec vous tout au long de nos processus, pour vous informer de l’avancement du projet.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-3 col-xl-3 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/calendar.png" alt="Work Illustration">
+                                      <img src="./img/features/calendar.avif" alt="Work Illustration">
                                       <h6 style="font-weight: bold;">Livraison</h6>
                                       <p><small>Je livre dans le délai convenu dans votre devis – si toutes les informations nécessaires sont transmises.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-3 col-xl-3 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/tools.png" alt="Work Illustration">
+                                      <img src="./img/features/tools.avif" alt="Work Illustration">
                                       <h6 style="font-weight: bold;">Résolution de bugs</h6>
                                       <p><small>Je corrige gratuitement les bugs de fonctionnement ou d’affichage jusqu’à 1 mois après la mise en ligne.</small></p>
                                     </div>
@@ -1494,7 +1494,7 @@
                             <div class="container-fluid p-0">
                               <div class="row g-0">
                                 <div class="col-12 d-flex justify-content-center">
-                                  <a class="btn btn-circle-text hover-circle" href="https://calendly.com/dontbecool/avant-vente" target="_blank">
+                                  <a class="btn btn-circle-text hover-circle" href="https://calendly.com/dontbecool/avant-vente" target="_blank" aria-label="Discutons en visio !">
                                     <em></em>
                                     <span class="btn-caption">Discutons <br>en visio !</span>
                                   </a>
@@ -1530,8 +1530,8 @@
 
                           <!-- Project Block - Title with Image Start -->
                           <div class="project__block no-padding no-margin project-image-bg">
-                            <img class="project-image-bg__portrait" src="./img/portfolio/devis-portrait.png" alt="Project Illustration">
-                            <img class="project-image-bg__landscape" src="./img/portfolio/devis-landscape.png" alt="Project Illustration">
+                            <img class="project-image-bg__portrait" src="./img/portfolio/devis-portrait.avif" alt="Project Illustration">
+                            <img class="project-image-bg__landscape" src="./img/portfolio/devis-landscape.avif" alt="Project Illustration">
                             <div class="project__title">
                               <h3 class="light">Générateur de devis</h3>
                             </div>
@@ -1560,9 +1560,9 @@
                                         <div class="col-12 col-md-6 grid-item pdata__item">
                                           <p class="data__title tagline-chapter small type-basic-160lh">Coût</p>
                                           <span style="display: inline-flex;">
-                                            <img src="./img/portfolio/argent.png" alt="Project Illustration" style="height:32px; width:32px;">
-                                            <img src="./img/portfolio/argent.png" alt="Project Illustration" style="height:32px; width:32px;">
-                                            <img src="./img/portfolio/argent.png" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img src="./img/portfolio/argent.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img src="./img/portfolio/argent.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img src="./img/portfolio/argent.avif" alt="Project Illustration" style="height:32px; width:32px;">
                                           </span>
                                           <p class="data__descr small type-basic-160lh">Elevé</p>
                                         </div>
@@ -1570,9 +1570,9 @@
                                         <div class="col-12 col-md-6 grid-item pdata__item">
                                           <p class="data__title tagline-chapter small type-basic-160lh">Délai</p>
                                           <span style="display: inline-flex;">
-                                            <img src="./img/portfolio/sablier.png" alt="Project Illustration" style="height:32px; width:32px;">
-                                            <img src="./img/portfolio/sablier.png" alt="Project Illustration" style="height:32px; width:32px;">
-                                            <img src="./img/portfolio/sablier.png" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img src="./img/portfolio/sablier.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img src="./img/portfolio/sablier.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img src="./img/portfolio/sablier.avif" alt="Project Illustration" style="height:32px; width:32px;">
                                           </span>
                                           <p class="data__descr small type-basic-160lh">Long</p>
                                         </div>
@@ -1626,42 +1626,42 @@
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/setting.png" alt="Work Illustration">
+                                      <img src="./img/features/setting.avif" alt="Work Illustration">
                                       <h6 style="font-weight: bold;">Administration Serveur</h6>
                                       <p><small>Le serveur qui héberge votre site est configuré et mis en service.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/computer.png" alt="Work Illustration">
+                                      <img src="./img/features/computer.avif" alt="Work Illustration">
                                       <h6 style="font-weight: bold;">Développements</h6>
                                       <p><small>Les fonctionnalités avancées dont vous avez besoin pour votre projet sont listées / développées / implémentées.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/mobile.png" alt="Work Illustration">
+                                      <img src="./img/features/mobile.avif" alt="Work Illustration">
                                       <h6 style="font-weight: bold;">Design responsive</h6>
                                       <p><small>Votre interface web est conçue avec le souci d’offrir à vos visiteurs une expérience utile, agréable et unique.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/text.png" alt="Work Illustration">
+                                      <img src="./img/features/text.avif" alt="Work Illustration">
                                       <h6 style="font-weight: bold;">Contenus</h6>
                                       <p><small>Sur la base de vos informations, les meilleurs contenus visuels (images, icones, illustrations…) sont sélectionnés/intégrés.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/link.png" alt="Work Illustration">
+                                      <img src="./img/features/link.avif" alt="Work Illustration">
                                       <h6 style="font-weight: bold;">Référencement naturel (SEO)</h6>
                                       <p><small>Les outils indispensables au bon référencement de votre site sont mis en place.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/rocket.png" alt="Work Illustration">
+                                      <img src="./img/features/rocket.avif" alt="Work Illustration">
                                       <h6 style="font-weight: bold;">Performance de chargement</h6>
                                       <p><small>Les sites web sont systématiquement optimisés pour la mise en cache des fichiers et images.</small></p>
                                     </div>
@@ -1708,28 +1708,28 @@
                                   </div>
                                   <div class="col-6 col-md-3 col-xl-3 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/target.png" alt="Work Illustration">
+                                      <img src="./img/features/target.avif" alt="Work Illustration">
                                       <h6 style="font-weight: bold;">Ecoute de vos besoins</h6>
                                       <p><small>Pour chaque projet, nous prenons le temps de caractériser toutes vos demandes et vous orienter au mieux.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-3 col-xl-3 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/chat-bubble.png" alt="Work Illustration">
+                                      <img src="./img/features/chat-bubble.avif" alt="Work Illustration">
                                       <h6 style="font-weight: bold;">Communication transparente</h6>
                                       <p><small>J'échange avec vous tout au long de nos processus, pour vous informer de l’avancement du projet.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-3 col-xl-3 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/calendar.png" alt="Work Illustration">
+                                      <img src="./img/features/calendar.avif" alt="Work Illustration">
                                       <h6 style="font-weight: bold;">Livraison</h6>
                                       <p><small>Je livre dans le délai convenu dans votre devis – si toutes les informations nécessaires sont transmises.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-3 col-xl-3 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img src="./img/features/tools.png" alt="Work Illustration">
+                                      <img src="./img/features/tools.avif" alt="Work Illustration">
                                       <h6 style="font-weight: bold;">Résolution de bugs</h6>
                                       <p><small>Je corrige gratuitement les bugs de fonctionnement ou d’affichage jusqu’à 1 mois après la mise en ligne.</small></p>
                                     </div>
@@ -1809,7 +1809,7 @@
                             <div class="container-fluid p-0">
                               <div class="row g-0">
                                 <div class="col-12 d-flex justify-content-center">
-                                  <a class="btn btn-circle-text hover-circle" href="https://calendly.com/dontbecool/avant-vente" target="_blank">
+                                  <a class="btn btn-circle-text hover-circle" href="https://calendly.com/dontbecool/avant-vente" target="_blank" aria-label="Discutons en visio !">
                                     <em></em>
                                     <span class="btn-caption">Discutons <br>en visio !</span>
                                   </a>
@@ -1909,42 +1909,42 @@
                               <!-- tools single item -->
                               <div class="tools-cards__item-l d-flex grid-item animate-card-6">
                                 <div class="tools-cards__card">
-                                  <img class="tools-cards__icon animate-in-up" src="img/features/target.png" alt="Tools Icon">
+                                  <img class="tools-cards__icon animate-in-up" src="img/features/target.avif" alt="Tools Icon">
                                   <h6 class="tools-cards__caption tagline-tool animate-in-up">un cadrage projet complet<p class="small">après une analyse approfondie des besoins</p></h6>
                                 </div>
                               </div>
                               <!-- tools single item -->
                               <div class="tools-cards__item-l d-flex grid-item animate-card-6">
                                 <div class="tools-cards__card">
-                                  <img class="tools-cards__icon animate-in-up" src="img/features/calender.png" alt="Tools Icon">
+                                  <img class="tools-cards__icon animate-in-up" src="img/features/calender.avif" alt="Tools Icon">
                                   <h6 class="tools-cards__caption tagline-tool animate-in-up">un suivi agile de l'avancement<p class="small">avec un Kanban et un site en pré-production</p></h6>
                                 </div>
                               </div>
                               <!-- tools single item -->
                               <div class="tools-cards__item-l d-flex grid-item animate-card-6">
                                 <div class="tools-cards__card">
-                                  <img class="tools-cards__icon animate-in-up" src="img/features/flash.png" alt="Tools Icon">
+                                  <img class="tools-cards__icon animate-in-up" src="img/features/flash.avif" alt="Tools Icon">
                                   <h6 class="tools-cards__caption tagline-tool animate-in-up">des animations d'ateliers <p class="small">de créativité et de résolution de problèmes</p></h6>
                                 </div>
                               </div>
                               <!-- tools single item -->
                               <div class="tools-cards__item-l d-flex grid-item animate-card-6">
                                 <div class="tools-cards__card">
-                                  <img class="tools-cards__icon animate-in-up" src="img/features/chat-bubble.png" alt="Tools Icon">
+                                  <img class="tools-cards__icon animate-in-up" src="img/features/chat-bubble.avif" alt="Tools Icon">
                                   <h6 class="tools-cards__caption tagline-tool animate-in-up">une gestion collaborative <p class="small">avec des équipes multidisciplinaires</p></h6>
                                 </div>
                               </div>
                               <!-- tools single item -->
                               <div class="tools-cards__item-l d-flex grid-item animate-card-6">
                                 <div class="tools-cards__card">
-                                  <img class="tools-cards__icon animate-in-up" src="img/features/lab.png" alt="Tools Icon">
+                                  <img class="tools-cards__icon animate-in-up" src="img/features/lab.avif" alt="Tools Icon">
                                   <h6 class="tools-cards__caption tagline-tool animate-in-up">des tests <p class="small">méthodiques et rigoureux</p></h6>
                                 </div>
                               </div>
                               <!-- tools single item -->
                               <div class="tools-cards__item-l d-flex grid-item animate-card-6">
                                 <div class="tools-cards__card">
-                                  <img class="tools-cards__icon animate-in-up" src="img/features/folder.png" alt="Tools Icon">
+                                  <img class="tools-cards__icon animate-in-up" src="img/features/folder.avif" alt="Tools Icon">
                                   <h6 class="tools-cards__caption tagline-tool animate-in-up">une formation client <p class="small">sur mesure</p></h6>
                                 </div>
                               </div>
@@ -1995,119 +1995,119 @@
                         fullpranayoga.com
                       </div>
                       <div class="item image image-1">
-                        <img src="img/works/portfolio-fullpranayoga.com-accueil.jpeg" alt="Image">
+                        <img src="img/works/portfolio-fullpranayoga.com-accueil.avif" alt="Image">
                       </div>
                       <!-- single item 2-->
                       <div class="item icon">
                         campuseagles.com
                       </div>
                       <div class="item image image-2">
-                        <img src="img/works/portfolio-campuseagles.com-accueil.jpeg" alt="Image">
+                        <img src="img/works/portfolio-campuseagles.com-accueil.avif" alt="Image">
                       </div>
                       <!-- single item 3-->
                       <div class="item icon">
                         fab16.org
                       </div>
                       <div class="item image image-3">
-                        <img src="img/works/portfolio-fab16.org-accueil.jpeg" alt="Image">
+                        <img src="img/works/portfolio-fab16.org-accueil.avif" alt="Image">
                       </div>
                       <!-- single item 4-->
                       <div class="item icon">
                         fabcity-montreal.com
                       </div>
                       <div class="item image image-4">
-                        <img src="img/works/portfolio-fabcity-montreal-home.jpeg" alt="Image">
+                        <img src="img/works/portfolio-fabcity-montreal-home.avif" alt="Image">
                       </div>
                       <!-- single item 5-->
                       <div class="item icon">
                         ping.communautique.quebec
                       </div>
                       <div class="item image image-5">
-                        <img src="img/works/portfolio-pingcommunautique.quebec-accueil.jpeg" alt="Image">
+                        <img src="img/works/portfolio-pingcommunautique.quebec-accueil.avif" alt="Image">
                       </div>
                       <!-- single item 6-->
                       <div class="item icon">
                         summitfabcity-montreal.quebec
                       </div>
                       <div class="item image image-6">
-                        <img src="img/works/summitfabcity-montrealquebec-home-portfolio.jpeg" alt="Image">
+                        <img src="img/works/summitfabcity-montrealquebec-home-portfolio.avif" alt="Image">
                       </div>
                       <!-- single item 7-->
                       <div class="item icon">
                         ecologisenergies.fr
                       </div>
                       <div class="item image image-7">
-                        <img src="img/works/ecologisenergiesfr-accueil-portfolio.jpeg" alt="Image">
+                        <img src="img/works/ecologisenergiesfr-accueil-portfolio.avif" alt="Image">
                       </div>
                       <!-- single item 8-->
                       <div class="item icon">
                         lasercleaning.ch
                       </div>
                       <div class="item image image-8">
-                        <img src="img/works/lasercleaningch-accueil-portfolio.jpeg" alt="Image">
+                        <img src="img/works/lasercleaningch-accueil-portfolio.avif" alt="Image">
                       </div>
                       <!-- single item 9-->
                       <div class="item icon">
                         echofab.quebec
                       </div>
                       <div class="item image image-9">
-                        <img src="img/works/portfolio-echofab.quebec-accueil.jpeg" alt="Image">
+                        <img src="img/works/portfolio-echofab.quebec-accueil.avif" alt="Image">
                       </div>
                       <!-- single item 10-->
                       <div class="item icon">
                         elisameliani.com
                       </div>
                       <div class="item image image-10">
-                        <img src="img/works/portfolio-elisameliani.com-accueil.jpeg" alt="Image">
+                        <img src="img/works/portfolio-elisameliani.com-accueil.avif" alt="Image">
                       </div>
                       <!-- single item 11-->
                       <div class="item icon">
                         fablabsnation.ca
                       </div>
                       <div class="item image image-11">
-                        <img src="img/works/portfolio-fablabsnation.ca-accueil.jpeg" alt="Image">
+                        <img src="img/works/portfolio-fablabsnation.ca-accueil.avif" alt="Image">
                       </div>
                       <!-- single item 12-->
                       <div class="item icon">
                         kaacouture.com
                       </div>
                       <div class="item image image-12">
-                        <img src="img/works/portfolio-kaacouture.com-accueil.jpeg" alt="Image">
+                        <img src="img/works/portfolio-kaacouture.com-accueil.avif" alt="Image">
                       </div>
                       <!-- single item 13-->
                       <div class="item icon">
                         myyogaconnect.com
                       </div>
                       <div class="item image image-13">
-                        <img src="img/works/portfolio-myyogaconnect.com-accueil-non-connecte.jpeg" alt="Image">
+                        <img src="img/works/portfolio-myyogaconnect.com-accueil-non-connecte.avif" alt="Image">
                       </div>
                       <!-- single item 14-->
                       <div class="item icon">
                         communautique.quebec
                       </div>
                       <div class="item image image-14">
-                        <img src="img/works/portfolio-communautique.quebec-accueil.png" alt="Image">
+                        <img src="img/works/portfolio-communautique.quebec-accueil.avif" alt="Image">
                       </div>
                       <!-- single item 15-->
                       <div class="item icon">
                         jaiio.fr
                       </div>
                       <div class="item image image-15">
-                        <img src="img/works/portfolio-jaiio.fr-accueil.png" alt="Image">
+                        <img src="img/works/portfolio-jaiio.fr-accueil.avif" alt="Image">
                       </div>
                       <!-- single item 16-->
                       <div class="item icon">
                         marketeurope.eu
                       </div>
                       <div class="item image image-16">
-                        <img src="img/works/portfolio-marketeurope.eu-accueil.png" alt="Image">
+                        <img src="img/works/portfolio-marketeurope.eu-accueil.avif" alt="Image">
                       </div>
                       <!-- single item 17-->
                       <div class="item icon">
                         menuiserie-fenetre.fr
                       </div>
                       <div class="item image image-17">
-                        <img src="img/works/portfolio-menuiserie-fenetre.fr-accueil.png" alt="Image">
+                        <img src="img/works/portfolio-menuiserie-fenetre.fr-accueil.avif" alt="Image">
                       </div>
                     </div>
                   </div>
@@ -2167,7 +2167,7 @@
                           <div class="col-12 col-md-6 cards__item grid-item animate-card-2">
                             <div class="cards__card d-flex flex-column">
                               <div class="cards__image cards__image-v2 d-flex animate-in-up">
-                                <img src="img/features/calendar.png" alt="Service/Feature Image">
+                                <img src="img/features/calendar.avif" alt="Service/Feature Image">
                               </div>
                               <div class="cards__descr">
                                 <h3 class="cards__title animate-in-up">Gestion de projet innovant</h3>
@@ -2198,7 +2198,7 @@
                           <div class="col-12 col-md-6 cards__item grid-item animate-card-2">
                             <div class="cards__card d-flex flex-column">
                               <div class="cards__image cards__image-v2 d-flex animate-in-up">
-                                <img src="img/features/painting-kit.png" alt="Service/Feature Image">
+                                <img src="img/features/painting-kit.avif" alt="Service/Feature Image">
                               </div>
                               <div class="cards__descr">
                                 <h3 class="cards__title animate-in-up">User eXperience</h3>
@@ -2232,7 +2232,7 @@
                           <div class="col-12 col-md-6 cards__item grid-item animate-card-2">
                             <div class="cards__card d-flex flex-column">
                               <div class="cards__image cards__image-v2 d-flex animate-in-up">
-                                <img src="img/features/credit-card.png" alt="Service/Feature Image">
+                                <img src="img/features/credit-card.avif" alt="Service/Feature Image">
                               </div>
                               <div class="cards__descr">
                                 <h3 class="cards__title animate-in-up">Fonctionnalités ecommerce</h3>
@@ -2263,7 +2263,7 @@
                           <div class="col-12 col-md-6 cards__item grid-item animate-card-2">
                             <div class="cards__card d-flex flex-column">
                               <div class="cards__image cards__image-v2 d-flex animate-in-up">
-                                <img src="img/features/folder.png" alt="Service/Feature Image">
+                                <img src="img/features/folder.avif" alt="Service/Feature Image">
                               </div>
                               <div class="cards__descr">
                                 <h3 class="cards__title animate-in-up">Formations</h3>
@@ -2601,7 +2601,7 @@
                       <div class="tools-cards__item d-flex grid-item animate-card-4">
                         <div class="tools-cards__card">
                           <a href="https://theeventscalendar.com/" target="_blank">
-                            <img class="tools-cards__icon animate-in-up" src="img/icons/icon-theeventscalendar.jpg" alt="Tools Icon">
+                            <img class="tools-cards__icon animate-in-up" src="img/icons/icon-theeventscalendar.avif" alt="Tools Icon">
                             <h6 class="tools-cards__caption tagline-tool animate-in-up">The Events Calendar <p class="small">plugin métier Réservation</p></h6>
                           </a>
                         </div>
@@ -2610,7 +2610,7 @@
                       <div class="tools-cards__item d-flex grid-item animate-card-4">
                         <div class="tools-cards__card">
                           <a href="https://www.paidmembershipspro.com/" target="_blank">
-                            <img class="tools-cards__icon animate-in-up" src="img/icons/icon-pmpro.png" alt="Tools Icon">
+                            <img class="tools-cards__icon animate-in-up" src="img/icons/icon-pmpro.avif" alt="Tools Icon">
                             <h6 class="tools-cards__caption tagline-tool animate-in-up">PMPro <p class="small">plugin métier Abonnement</p></h6>
                           </a>
                         </div>
@@ -2729,7 +2729,7 @@
                                   </div>
                                   <div class="col-12 col-lg-6 testimonials-card__timage fullheight-l">
                                     <div class="timage__inner fullheight-l animate-in-up">
-                                      <img src="img/works/portfolio-sophiebaudin.com-accueil.png" alt="Testimonials Image">
+                                      <img src="img/works/portfolio-sophiebaudin.com-accueil.avif" alt="Testimonials Image">
                                     </div>
                                   </div>
                                 </div>
@@ -2766,7 +2766,7 @@
                                   </div>
                                   <div class="col-12 col-lg-6 testimonials-card__timage fullheight-l">
                                     <div class="timage__inner fullheight-l animate-in-up">
-                                      <img src="img/works/portfolio-menuiserie-fenetre.fr-accueil.png" alt="Testimonials Image">
+                                      <img src="img/works/portfolio-menuiserie-fenetre.fr-accueil.avif" alt="Testimonials Image">
                                     </div>
                                   </div>
                                 </div>
@@ -2877,7 +2877,7 @@
                                   </div>
                                   <div class="col-12 col-lg-6 testimonials-card__timage fullheight-l">
                                     <div class="timage__inner fullheight-l animate-in-up">
-                                      <img src="img/works/portfolio-frenchr.com-accueil.png" alt="Testimonials Image">
+                                      <img src="img/works/portfolio-frenchr.com-accueil.avif" alt="Testimonials Image">
                                     </div>
                                   </div>
                                 </div>
@@ -2914,7 +2914,7 @@
                                   </div>
                                   <div class="col-12 col-lg-6 testimonials-card__timage fullheight-l">
                                     <div class="timage__inner fullheight-l animate-in-up">
-                                      <img src="img/works/portfolio-juliekeraphotography.com-accueil.png" alt="Testimonials Image">
+                                      <img src="img/works/portfolio-juliekeraphotography.com-accueil.avif" alt="Testimonials Image">
                                     </div>
                                   </div>
                                 </div>
@@ -2951,7 +2951,7 @@
                                   </div>
                                   <div class="col-12 col-lg-6 testimonials-card__timage fullheight-l">
                                     <div class="timage__inner fullheight-l animate-in-up">
-                                      <img src="img/works/portfolio-mescoursesenvrac.com-accueil.png" alt="Testimonials Image">
+                                      <img src="img/works/portfolio-mescoursesenvrac.com-accueil.avif" alt="Testimonials Image">
                                     </div>
                                   </div>
                                 </div>
@@ -2988,7 +2988,7 @@
                                   </div>
                                   <div class="col-12 col-lg-6 testimonials-card__timage fullheight-l">
                                     <div class="timage__inner fullheight-l animate-in-up">
-                                      <img src="img/works/portfolio-lesphilogynes.com-accueil.png" alt="Testimonials Image">
+                                      <img src="img/works/portfolio-lesphilogynes.com-accueil.avif" alt="Testimonials Image">
                                     </div>
                                   </div>
                                 </div>
@@ -3105,7 +3105,7 @@
                                   </div>
                                   <div class="col-12 col-lg-6 testimonials-card__timage fullheight-l">
                                     <div class="timage__inner fullheight-l animate-in-up">
-                                      <img src="img/works/portfolio-communautique.quebec-accueil.png" alt="Testimonials Image">
+                                      <img src="img/works/portfolio-communautique.quebec-accueil.avif" alt="Testimonials Image">
                                     </div>
                                   </div>
                                 </div>
@@ -3394,7 +3394,7 @@
                               <div class="footer__link d-flex flex-column flex-md-row justify-content-md-between align-items-md-center">
                                 <div class="footer__text reveal-type animate-in-up">Discutons de <br>votre projet !</div>
                                 <div class="footer__btn animate-in-up">
-                                  <a href="mailto:guillaume@dontbe.cool?subject=Message%20du%20site%20dontbe.cool" class="btn btn-circle-icon hover-circle">
+                                  <a href="mailto:guillaume@dontbe.cool?subject=Message%20du%20site%20dontbe.cool" class="btn btn-circle-icon hover-circle" aria-label="Discutons par mail">
                                     <em></em>
                                     <i class="ph-light ph-arrow-right"></i>
                                   </a>
@@ -4228,10 +4228,10 @@
     <!-- Bottom Background Images Start -->
     <div class="bottom__background bottom-bg-03">
       <div class="bottom-bg-03__01 animate-card-2">
-        <img src="./img/features/fire.png" alt="Template background image">
+        <img src="./img/features/fire.avif" alt="Template background image">
       </div>
       <div class="bottom-bg-03__02 animate-card-2">
-        <img src="./img/features/fire.png" alt="Template background image">
+        <img src="./img/features/fire.avif" alt="Template background image">
       </div>
     </div>
     <!-- Bottom Background Images End -->
