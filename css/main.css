@@ -4890,6 +4890,7 @@ form textarea:required:valid {
   display: -ms-inline-flexbox;
   display: inline-flex;
   font-family: "Phosphor";
+  font-display: swap;
   content: "\eddb";
   position: absolute;
   left: 50%;

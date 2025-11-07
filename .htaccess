@@ -823,19 +823,19 @@ FileETag None
     ExpiresByType application/rdf+xml                   "access plus 1 hour"
     ExpiresByType application/rss+xml                   "access plus 1 hour"
 
-    ExpiresByType application/json                      "access plus 0 seconds"
-    ExpiresByType application/ld+json                   "access plus 0 seconds"
-    ExpiresByType application/schema+json               "access plus 0 seconds"
-    ExpiresByType application/vnd.geo+json              "access plus 0 seconds"
-    ExpiresByType application/xml                       "access plus 0 seconds"
-    ExpiresByType text/xml                              "access plus 0 seconds"
+    ExpiresByType application/json                      "access plus 1 hour"
+    ExpiresByType application/ld+json                   "access plus 1 hour"
+    ExpiresByType application/schema+json               "access plus 1 hour"
+    ExpiresByType application/vnd.geo+json              "access plus 1 hour"
+    ExpiresByType application/xml                       "access plus 1 hour"
+    ExpiresByType text/xml                              "access plus 1 hour"
 
   # Favicon (cannot be renamed!) and cursor images
     ExpiresByType image/vnd.microsoft.icon              "access plus 1 week"
     ExpiresByType image/x-icon                          "access plus 1 week"
 
   # HTML
-    ExpiresByType text/html                             "access plus 0 seconds"
+    ExpiresByType text/html                             "access plus 1 hour"
 
   # JavaScript
     ExpiresByType application/javascript                "access plus 1 year"
@@ -845,8 +845,8 @@ FileETag None
   # Manifest files
     ExpiresByType application/manifest+json             "access plus 1 year"
 
-    ExpiresByType application/x-web-app-manifest+json   "access plus 0 seconds"
-    ExpiresByType text/cache-manifest                   "access plus 0 seconds"
+    ExpiresByType application/x-web-app-manifest+json   "access plus 1 hour"
+    ExpiresByType text/cache-manifest                   "access plus 1 hour"
 
   # Media files
     ExpiresByType audio/ogg                             "access plus 1 month"
