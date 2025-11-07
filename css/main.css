@@ -1,13 +1,11 @@
 /*! ------------------------------------------------
- * Project Name: Name: Blayden - Personal Portfolio & Resume HTML Template
- * Project Description: Show yourself brightly with Blayden - clean and creative portfolio and resume template!
- * Tags: mix_design, resume, portfolio, personal page, cv, template, one page, responsive, html5, css3, creative, clean 
+ * Project Name: Name: dontbe.cool
+ * Project Description: Je créé des sites web pour entrepreneurs !
  * Version: 1.0.0
  * Build Date: June 2024
  * Last Update: June 2024
- * This product is available exclusively on Themeforest
- * Author: mix_design
- * Author URI: https://themeforest.net/user/mix_design */
+ * Author: Guillaume Pelletier
+ * Author URI: https://dontbe.cool */
 /*! File name: main.css
  * ------------------------------------------------
  * ------------------------------------------------
@@ -233,23 +231,23 @@
 }
 
 .portfolio-item-1 {
-  background-image: url(../img/portfolio/ecommerce-landscape.avif);
+  background-image: url(../img/portfolio/ecommerce-landscape_dm8fo3_c_scale,w_1536.avif);
 }
 
 .portfolio-item-2 {
-  background-image: url(../img/portfolio/marketplace-landscape.avif);
+  background-image: url(../img/portfolio/marketplace-landscape_bbuznf_c_scale,w_1536.avif);
 }
 
 .portfolio-item-3 {
-  background-image: url(../img/portfolio/reservation-landscape.avif);
+  background-image: url(../img/portfolio/reservation-landscape_fh1euo_c_scale,w_1536.avif);
 }
 
 .portfolio-item-4 {
-  background-image: url(../img/portfolio/abonnement-landscape.avif);
+  background-image: url(../img/portfolio/abonnement-landscape_u4rnsq_c_scale,w_1536.avif);
 }
 
 .portfolio-item-5 {
-  background-image: url(../img/portfolio/devis-landscape.avif);
+  background-image: url(../img/portfolio/devis-landscape_fbgv0d_c_scale,w_1536.avif);
 }
 
 .portfolio-item-6 {
