@@ -29,7 +29,7 @@
 
     <!-- Preload critical resources -->
     <link rel="preload" href="css/main-min.css" as="style">
-    <link rel="preload" href="img/services/hero-01.avif" as="image">
+    <link rel="preload" href="img/services/hero-01.avif" as="image" fetchpriority="high">
 
     <!-- Facebook Metadata Start -->
     <meta property="og:image:height" content="1200">
@@ -42,8 +42,12 @@
 
     <!-- Template Styles Start -->
     <link rel="stylesheet" type="text/css" href="css/loaders/loader-min.css">
-    <link rel="stylesheet" type="text/css" href="css/plugins-min.css">
-    <link rel="stylesheet" type="text/css" href="css/main-min.css">
+    <link rel="stylesheet" type="text/css" href="css/plugins-min.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" type="text/css" href="css/main-min.css" media="print" onload="this.media='all'">
+    <noscript>
+      <link rel="stylesheet" type="text/css" href="css/plugins-min.css">
+      <link rel="stylesheet" type="text/css" href="css/main-min.css">
+    </noscript>
     <!-- Template Styles End -->
 
     <!-- Custom Browser Color Start -->
@@ -55,7 +59,10 @@
     <!-- Custom Browser Color End -->
 
     <!-- Début de widget de lien Calendly -->
-    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+      <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    </noscript>
     <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" defer></script>
     <!-- Fin de widget de lien Calendly -->
   </head>
@@ -128,7 +135,7 @@
     <div class="logo loading__fade">
       <a href="#home" class="logo__link">
         
-        <img src="img/favicon/favicon.png" alt="" width="50" height="50" style="object-fit:contain;
+        <img src="img/favicon/favicon.png" alt="Logo dontbe.cool" width="50" height="50" loading="eager" style="object-fit:contain;
             width:50px;
             height:auto;">
         <!-- logo text -->
@@ -155,7 +162,7 @@
           <!-- Intro Background Start -->
           <div class="intro__background intro-bg-03">
             <div class="intro-bg-03__01" data-speed="0.2">
-              <img src="img/services/hero-01.avif" alt="Guillaume Pelletier" fetchpriority="high">
+              <img src="img/services/hero-01.avif" alt="Guillaume Pelletier" fetchpriority="high" loading="eager" width="910" height="910">
             </div>
             <!-- <div class="intro-bg-03__02" data-speed="0.8">
               <img src="./img/features/flash.png" alt="">
@@ -4549,7 +4556,7 @@
     </div>
 
     <!-- Load Scripts Start -->
-    <script src="js/libs.min.js"></script>
+    <script src="js/libs.min.js" defer></script>
     <script src="js/gallery-init.js" defer></script>
     <script src="js/app-min.js" defer></script>
     <!-- Load Scripts End -->
