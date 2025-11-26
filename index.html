@@ -23,6 +23,14 @@
     <link rel="manifest" href="img/favicon/manifest.webmanifest" crossorigin="use-credentials">
     <!-- Template Favicon & Icons End -->
 
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://assets.calendly.com">
+    <link rel="dns-prefetch" href="https://assets.calendly.com">
+
+    <!-- Preload critical resources -->
+    <link rel="preload" href="css/main-min.css" as="style">
+    <link rel="preload" href="img/services/hero-01.avif" as="image">
+
     <!-- Facebook Metadata Start -->
     <meta property="og:image:height" content="1200">
     <meta property="og:image:width" content="1200">
@@ -328,8 +336,8 @@
 
                           <!-- Project Block - Title with Image Start -->
                           <div class="project__block no-padding no-margin project-image-bg">
-                            <img loading="auto"
-                              class="project-image-bg__portrait" 
+                            <img loading="lazy"
+                              class="project-image-bg__portrait"
                               sizes="(max-width: 600px) 100vw, 600px"
                               srcset="
                               ./img/portfolio/ecommerce-portrait_yigvkm_c_scale,w_240.avif 240w,
@@ -337,14 +345,14 @@
                               ./img/portfolio/ecommerce-portrait_yigvkm_c_scale,w_600.avif 600w"
                               src="./img/portfolio/ecommerce-portrait_yigvkm_c_scale,w_600.avif"
                               alt="Illustration ecommerce">
-                            <img loading="auto"
-                              class="project-image-bg__landscape" 
+                            <img loading="lazy"
+                              class="project-image-bg__landscape"
                               sizes="(max-width: 1536px) 100vw, 1536px"
                               srcset="
                               ./img/portfolio/ecommerce-landscape_dm8fo3_c_scale,w_240.avif 240w,
                               ./img/portfolio/ecommerce-landscape_dm8fo3_c_scale,w_1014.avif 1014w,
                               ./img/portfolio/ecommerce-landscape_dm8fo3_c_scale,w_1536.avif 1536w"
-                              src="./img/portfolio/ecommerce-landscape_dm8fo3_c_scale,w_1536.avif" 
+                              src="./img/portfolio/ecommerce-landscape_dm8fo3_c_scale,w_1536.avif"
                               alt="Illustration ecommerce">
                             <div class="project__title">
                               <h3 class="light">ecommerce</h3>
@@ -370,9 +378,9 @@
                                         <div class="col-12 col-md-6 grid-item pdata__item">
                                           
                                           <span class="portfolio-cat" style="display: inline-flex;">
-                                            <img loading="auto" src="./img/portfolio/travail.avif" alt="Icone 1 travail de gestion" style="height:32px; width:32px;">
-                                            <img loading="auto" src="./img/portfolio/travail.avif" alt="Icone 2 travail de gestion" style="height:32px; width:32px; filter: opacity(0.2);">
-                                            <img loading="auto" src="./img/portfolio/travail.avif" alt="Icone 3 travail de gestion" style="height:32px; width:32px; filter: opacity(0.2);">
+                                            <img loading="lazy" src="./img/portfolio/travail.avif" alt="Icone 1 travail de gestion" style="height:32px; width:32px;">
+                                            <img loading="lazy" src="./img/portfolio/travail.avif" alt="Icone 2 travail de gestion" style="height:32px; width:32px; filter: opacity(0.2);">
+                                            <img loading="lazy" src="./img/portfolio/travail.avif" alt="Icone 3 travail de gestion" style="height:32px; width:32px; filter: opacity(0.2);">
                                           </span>
                                           <p class="data__title tagline-chapter small type-basic-160lh">Gestion</p>
                                           <p class="data__descr small type-basic-160lh">Simple</p>
@@ -381,9 +389,9 @@
                                         <div class="col-12 col-md-6 grid-item pdata__item">
                                           
                                           <span class="portfolio-cat" style="display: inline-flex;">
-                                            <img loading="auto" src="./img/portfolio/argent.avif" alt="Icone 1 coût" style="height:32px; width:32px;">
-                                            <img loading="auto" src="./img/portfolio/argent.avif" alt="Icone 2 coût" style="height:32px; width:32px;">
-                                            <img loading="auto" src="./img/portfolio/argent.avif" alt="Icone 3 coût" style="height:32px; width:32px; filter: opacity(0.2);">
+                                            <img loading="lazy" src="./img/portfolio/argent.avif" alt="Icone 1 coût" style="height:32px; width:32px;">
+                                            <img loading="lazy" src="./img/portfolio/argent.avif" alt="Icone 2 coût" style="height:32px; width:32px;">
+                                            <img loading="lazy" src="./img/portfolio/argent.avif" alt="Icone 3 coût" style="height:32px; width:32px; filter: opacity(0.2);">
                                           </span>
                                           <p class="data__title tagline-chapter small type-basic-160lh">Coût</p>
                                           <p class="data__descr small type-basic-160lh">Moyen</p>
@@ -392,9 +400,9 @@
                                         <div class="col-12 col-md-6 grid-item pdata__item">
                                           
                                           <span class="portfolio-cat" style="display: inline-flex;">
-                                            <img loading="auto" src="./img/portfolio/sablier.avif" alt="Icone 1 délai" style="height:32px; width:32px;">
-                                            <img loading="auto" src="./img/portfolio/sablier.avif" alt="Icone 2 délai" style="height:32px; width:32px; filter: opacity(0.2);">
-                                            <img loading="auto" src="./img/portfolio/sablier.avif" alt="Icone 3 délai" style="height:32px; width:32px; filter: opacity(0.2);">
+                                            <img loading="lazy" src="./img/portfolio/sablier.avif" alt="Icone 1 délai" style="height:32px; width:32px;">
+                                            <img loading="lazy" src="./img/portfolio/sablier.avif" alt="Icone 2 délai" style="height:32px; width:32px; filter: opacity(0.2);">
+                                            <img loading="lazy" src="./img/portfolio/sablier.avif" alt="Icone 3 délai" style="height:32px; width:32px; filter: opacity(0.2);">
                                           </span>
                                           <p class="data__title tagline-chapter small type-basic-160lh">Délai</p>
                                           <p class="data__descr small type-basic-160lh">Court</p>
@@ -448,42 +456,42 @@
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/setting.avif" alt="Icone administration serveur">
+                                      <img loading="lazy" src="./img/features/setting.avif" alt="Icone administration serveur">
                                       <h6 style="font-weight: bold;">Administration Serveur</h6>
                                       <p><small>Le serveur qui héberge votre site est configuré et mis en service.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/computer.avif" alt="Icone développements">
+                                      <img loading="lazy" src="./img/features/computer.avif" alt="Icone développements">
                                       <h6 style="font-weight: bold;">Développements</h6>
                                       <p><small>Les fonctionnalités avancées dont vous avez besoin pour votre projet sont listées / développées / implémentées.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/mobile.avif" alt="Icone design responsive">
+                                      <img loading="lazy" src="./img/features/mobile.avif" alt="Icone design responsive">
                                       <h6 style="font-weight: bold;">Design responsive</h6>
                                       <p><small>Votre interface web est conçue avec le souci d’offrir à vos visiteurs une expérience utile, agréable et unique.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/text.avif" alt="Icone contenus">
+                                      <img loading="lazy" src="./img/features/text.avif" alt="Icone contenus">
                                       <h6 style="font-weight: bold;">Contenus</h6>
                                       <p><small>Sur la base de vos informations, les meilleurs contenus visuels (images, icones, illustrations…) sont sélectionnés/intégrés.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/link.avif" alt="Icone référencement naturel SEO">
+                                      <img loading="lazy" src="./img/features/link.avif" alt="Icone référencement naturel SEO">
                                       <h6 style="font-weight: bold;">Référencement naturel (SEO)</h6>
                                       <p><small>Les outils indispensables au bon référencement de votre site sont mis en place.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/rocket.avif" alt="Icone performance de chargement">
+                                      <img loading="lazy" src="./img/features/rocket.avif" alt="Icone performance de chargement">
                                       <h6 style="font-weight: bold;">Performance de chargement</h6>
                                       <p><small>Les sites web sont systématiquement optimisés pour la mise en cache des fichiers et images.</small></p>
                                     </div>
@@ -530,28 +538,28 @@
                                   </div>
                                   <div class="col-6 col-md-3 col-xl-3 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/target.avif" alt="Icone écoute des besoins">
+                                      <img loading="lazy" src="./img/features/target.avif" alt="Icone écoute des besoins">
                                       <h6 style="font-weight: bold;">Ecoute de vos besoins</h6>
                                       <p><small>Pour chaque projet, nous prenons le temps de caractériser toutes vos demandes et vous orienter au mieux.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-3 col-xl-3 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/chat-bubble.avif" alt="Icone communication">
+                                      <img loading="lazy" src="./img/features/chat-bubble.avif" alt="Icone communication">
                                       <h6 style="font-weight: bold;">Communication transparente</h6>
                                       <p><small>J'échange avec vous tout au long de nos processus, pour vous informer de l’avancement du projet.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-3 col-xl-3 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/calendar.avif" alt="Icone livraison">
+                                      <img loading="lazy" src="./img/features/calendar.avif" alt="Icone livraison">
                                       <h6 style="font-weight: bold;">Livraison</h6>
                                       <p><small>Je livre dans le délai convenu dans votre devis – si toutes les informations nécessaires sont transmises.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-3 col-xl-3 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/tools.avif" alt="Icone résolution de bugs">
+                                      <img loading="lazy" src="./img/features/tools.avif" alt="Icone résolution de bugs">
                                       <h6 style="font-weight: bold;">Résolution de bugs</h6>
                                       <p><small>Je corrige gratuitement les bugs de fonctionnement ou d’affichage jusqu’à 1 mois après la mise en ligne.</small></p>
                                     </div>
@@ -574,7 +582,7 @@
                                     <div class="project__feedback">
                                       <div class="feedback__fauthor d-flex">
                                         <div class="fauthor__avatar">
-                                          <img loading="auto" src="img/testimonials/Karole.webp" alt="Photo profil de cliente Karolle-Anne Taillé">
+                                          <img loading="lazy" src="img/testimonials/Karole.webp" alt="Photo profil de cliente Karolle-Anne Taillé">
                                         </div>
                                         <div class="fauthor__info d-flex flex-column justify-content-center">
                                           <h4 class="fauthor__name">Karolle-Anne Taillé</h4>
@@ -648,7 +656,7 @@
 
                           <!-- Project Block - Title with Image Start -->
                           <div class="project__block no-padding no-margin project-image-bg">
-                            <img loading="auto"
+                            <img loading="lazy"
                               class="project-image-bg__portrait"
                               sizes="(max-width: 600px) 100vw, 600px"
                               srcset="
@@ -657,7 +665,7 @@
                               ./img/portfolio/marketplace-portrait_hzr5hc_c_scale,w_600.avif 600w"
                               src="./img/portfolio/marketplace-portrait_hzr5hc_c_scale,w_600.avif"
                               alt="Illustration marketplace format portrait">
-                            <img loading="auto"
+                            <img loading="lazy"
                               class="project-image-bg__landscape"
                               sizes="(max-width: 1536px) 100vw, 1536px"
                               srcset="
@@ -689,9 +697,9 @@
                                         <div class="col-12 col-md-6 grid-item pdata__item">
                                           <p class="data__title tagline-chapter small type-basic-160lh">Gestion</p>
                                           <span style="display: inline-flex;">
-                                            <img loading="auto" src="./img/portfolio/travail.avif" alt="Project Illustration" style="height:32px; width:32px;">
-                                            <img loading="auto" src="./img/portfolio/travail.avif" alt="Project Illustration" style="height:32px; width:32px;">
-                                            <img loading="auto" src="./img/portfolio/travail.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img loading="lazy" src="./img/portfolio/travail.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img loading="lazy" src="./img/portfolio/travail.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img loading="lazy" src="./img/portfolio/travail.avif" alt="Project Illustration" style="height:32px; width:32px;">
                                           </span>
                                           <p class="data__descr small type-basic-160lh">Complexe</p>
                                         </div>
@@ -699,9 +707,9 @@
                                         <div class="col-12 col-md-6 grid-item pdata__item">
                                           <p class="data__title tagline-chapter small type-basic-160lh">Coût</p>
                                           <span style="display: inline-flex;">
-                                            <img loading="auto" src="./img/portfolio/argent.avif" alt="Project Illustration" style="height:32px; width:32px;">
-                                            <img loading="auto" src="./img/portfolio/argent.avif" alt="Project Illustration" style="height:32px; width:32px;">
-                                            <img loading="auto" src="./img/portfolio/argent.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img loading="lazy" src="./img/portfolio/argent.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img loading="lazy" src="./img/portfolio/argent.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img loading="lazy" src="./img/portfolio/argent.avif" alt="Project Illustration" style="height:32px; width:32px;">
                                           </span>
                                           <p class="data__descr small type-basic-160lh">Elevé</p>
                                         </div>
@@ -709,9 +717,9 @@
                                         <div class="col-12 col-md-6 grid-item pdata__item">
                                           <p class="data__title tagline-chapter small type-basic-160lh">Délai</p>
                                           <span style="display: inline-flex;">
-                                            <img loading="auto" src="./img/portfolio/sablier.avif" alt="Project Illustration" style="height:32px; width:32px;">
-                                            <img loading="auto" src="./img/portfolio/sablier.avif" alt="Project Illustration" style="height:32px; width:32px;">
-                                            <img loading="auto" src="./img/portfolio/sablier.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img loading="lazy" src="./img/portfolio/sablier.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img loading="lazy" src="./img/portfolio/sablier.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img loading="lazy" src="./img/portfolio/sablier.avif" alt="Project Illustration" style="height:32px; width:32px;">
                                           </span>
                                           <p class="data__descr small type-basic-160lh">Long</p>
                                         </div>
@@ -764,42 +772,42 @@
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/setting.avif" alt="Icone illustration">
+                                      <img loading="lazy" src="./img/features/setting.avif" alt="Icone illustration">
                                       <h6 style="font-weight: bold;">Administration Serveur</h6>
                                       <p><small>Le serveur qui héberge votre site est configuré et mis en service.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/computer.avif" alt="Icone illustration">
+                                      <img loading="lazy" src="./img/features/computer.avif" alt="Icone illustration">
                                       <h6 style="font-weight: bold;">Développements</h6>
                                       <p><small>Les fonctionnalités avancées dont vous avez besoin pour votre projet sont listées / développées / implémentées.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/mobile.avif" alt="Icone illustration">
+                                      <img loading="lazy" src="./img/features/mobile.avif" alt="Icone illustration">
                                       <h6 style="font-weight: bold;">Design responsive</h6>
                                       <p><small>Votre interface web est conçue avec le souci d’offrir à vos visiteurs une expérience utile, agréable et unique.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/text.avif" alt="Icone illustration">
+                                      <img loading="lazy" src="./img/features/text.avif" alt="Icone illustration">
                                       <h6 style="font-weight: bold;">Contenus</h6>
                                       <p><small>Sur la base de vos informations, les meilleurs contenus visuels (images, icones, illustrations…) sont sélectionnés/intégrés.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/link.avif" alt="Icone illustration">
+                                      <img loading="lazy" src="./img/features/link.avif" alt="Icone illustration">
                                       <h6 style="font-weight: bold;">Référencement naturel (SEO)</h6>
                                       <p><small>Les outils indispensables au bon référencement de votre site sont mis en place.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/rocket.avif" alt="Icone illustration">
+                                      <img loading="lazy" src="./img/features/rocket.avif" alt="Icone illustration">
                                       <h6 style="font-weight: bold;">Performance de chargement</h6>
                                       <p><small>Les sites web sont systématiquement optimisés pour la mise en cache des fichiers et images.</small></p>
                                     </div>
@@ -845,28 +853,28 @@
                                   </div>
                                   <div class="col-6 col-md-3 col-xl-3 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/target.avif" alt="Icone illustration">
+                                      <img loading="lazy" src="./img/features/target.avif" alt="Icone illustration">
                                       <h6 style="font-weight: bold;">Ecoute de vos besoins</h6>
                                       <p><small>Pour chaque projet, nous prenons le temps de caractériser toutes vos demandes et vous orienter au mieux.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-3 col-xl-3 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/chat-bubble.avif" alt="Icone illustration">
+                                      <img loading="lazy" src="./img/features/chat-bubble.avif" alt="Icone illustration">
                                       <h6 style="font-weight: bold;">Communication transparente</h6>
                                       <p><small>J'échange avec vous tout au long de nos processus, pour vous informer de l’avancement du projet.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-3 col-xl-3 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/calendar.avif" alt="Icone illustration">
+                                      <img loading="lazy" src="./img/features/calendar.avif" alt="Icone illustration">
                                       <h6 style="font-weight: bold;">Livraison</h6>
                                       <p><small>Je livre dans le délai convenu dans votre devis – si toutes les informations nécessaires sont transmises.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-3 col-xl-3 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/tools.avif" alt="Icone illustration">
+                                      <img loading="lazy" src="./img/features/tools.avif" alt="Icone illustration">
                                       <h6 style="font-weight: bold;">Résolution de bugs</h6>
                                       <p><small>Je corrige gratuitement les bugs de fonctionnement ou d’affichage jusqu’à 1 mois après la mise en ligne.</small></p>
                                     </div>
@@ -889,7 +897,7 @@
                                     <div class="project__feedback">
                                       <div class="feedback__fauthor d-flex">
                                         <div class="fauthor__avatar">
-                                          <img loading="auto" src="img/testimonials/Oscar.webp" alt="Photo profil de client">
+                                          <img loading="lazy" src="img/testimonials/Oscar.webp" alt="Photo profil de client">
                                         </div>
                                         <div class="fauthor__info d-flex flex-column justify-content-center">
                                           <h4 class="fauthor__name">Oscar De Poncins</h4>
@@ -963,7 +971,7 @@
 
                           <!-- Project Block - Title with Image Start -->
                           <div class="project__block no-padding no-margin project-image-bg">
-                            <img loading="auto"
+                            <img loading="lazy"
                               class="project-image-bg__portrait"
                               sizes="(max-width: 469px) 100vw, 469px"
                               srcset="
@@ -971,7 +979,7 @@
                               ./img/portfolio/reservation-portrait_ykw7ak_c_scale,w_469.avif 469w"
                               src="./img/portfolio/reservation-portrait_ykw7ak_c_scale,w_469.avif"
                               alt="Illustration plateforme de réservation format portrait">
-                            <img loading="auto"
+                            <img loading="lazy"
                               class="project-image-bg__landscape"
                               sizes="(max-width: 1536px) 100vw, 1536px"
                               srcset="
@@ -1003,9 +1011,9 @@
                                         <div class="col-12 col-md-6 grid-item pdata__item">
                                           <p class="data__title tagline-chapter small type-basic-160lh">Gestion</p>
                                           <span style="display: inline-flex;">
-                                            <img loading="auto" src="./img/portfolio/travail.avif" alt="Project Illustration" style="height:32px; width:32px;">
-                                            <img loading="auto" src="./img/portfolio/travail.avif" alt="Project Illustration" style="height:32px; width:32px; filter: opacity(0.2);">
-                                            <img loading="auto" src="./img/portfolio/travail.avif" alt="Project Illustration" style="height:32px; width:32px; filter: opacity(0.2);">
+                                            <img loading="lazy" src="./img/portfolio/travail.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img loading="lazy" src="./img/portfolio/travail.avif" alt="Project Illustration" style="height:32px; width:32px; filter: opacity(0.2);">
+                                            <img loading="lazy" src="./img/portfolio/travail.avif" alt="Project Illustration" style="height:32px; width:32px; filter: opacity(0.2);">
                                           </span>
                                           <p class="data__descr small type-basic-160lh">Simple</p>
                                         </div>
@@ -1013,9 +1021,9 @@
                                         <div class="col-12 col-md-6 grid-item pdata__item">
                                           <p class="data__title tagline-chapter small type-basic-160lh">Coût</p>
                                           <span style="display: inline-flex;">
-                                            <img loading="auto" src="./img/portfolio/argent.avif" alt="Project Illustration" style="height:32px; width:32px;">
-                                            <img loading="auto" src="./img/portfolio/argent.avif" alt="Project Illustration" style="height:32px; width:32px;">
-                                            <img loading="auto" src="./img/portfolio/argent.avif" alt="Project Illustration" style="height:32px; width:32px; filter: opacity(0.2);">
+                                            <img loading="lazy" src="./img/portfolio/argent.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img loading="lazy" src="./img/portfolio/argent.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img loading="lazy" src="./img/portfolio/argent.avif" alt="Project Illustration" style="height:32px; width:32px; filter: opacity(0.2);">
                                           </span>
                                           <p class="data__descr small type-basic-160lh">Moyen</p>
                                         </div>
@@ -1023,9 +1031,9 @@
                                         <div class="col-12 col-md-6 grid-item pdata__item">
                                           <p class="data__title tagline-chapter small type-basic-160lh">Délai</p>
                                           <span style="display: inline-flex;">
-                                            <img loading="auto" src="./img/portfolio/sablier.avif" alt="Project Illustration" style="height:32px; width:32px;">
-                                            <img loading="auto" src="./img/portfolio/sablier.avif" alt="Project Illustration" style="height:32px; width:32px; filter: opacity(0.2);">
-                                            <img loading="auto" src="./img/portfolio/sablier.avif" alt="Project Illustration" style="height:32px; width:32px; filter: opacity(0.2);">
+                                            <img loading="lazy" src="./img/portfolio/sablier.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img loading="lazy" src="./img/portfolio/sablier.avif" alt="Project Illustration" style="height:32px; width:32px; filter: opacity(0.2);">
+                                            <img loading="lazy" src="./img/portfolio/sablier.avif" alt="Project Illustration" style="height:32px; width:32px; filter: opacity(0.2);">
                                           </span>
                                           <p class="data__descr small type-basic-160lh">Court</p>
                                         </div>
@@ -1079,42 +1087,42 @@
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/setting.avif" alt="Icone illustration">
+                                      <img loading="lazy" src="./img/features/setting.avif" alt="Icone illustration">
                                       <h6 style="font-weight: bold;">Administration Serveur</h6>
                                       <p><small>Le serveur qui héberge votre site est configuré et mis en service.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/computer.avif" alt="Icone illustration">
+                                      <img loading="lazy" src="./img/features/computer.avif" alt="Icone illustration">
                                       <h6 style="font-weight: bold;">Développements</h6>
                                       <p><small>Les fonctionnalités avancées dont vous avez besoin pour votre projet sont listées / développées / implémentées.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/mobile.avif" alt="Icone illustration">
+                                      <img loading="lazy" src="./img/features/mobile.avif" alt="Icone illustration">
                                       <h6 style="font-weight: bold;">Design responsive</h6>
                                       <p><small>Votre interface web est conçue avec le souci d’offrir à vos visiteurs une expérience utile, agréable et unique.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/text.avif" alt="Icone illustration">
+                                      <img loading="lazy" src="./img/features/text.avif" alt="Icone illustration">
                                       <h6 style="font-weight: bold;">Contenus</h6>
                                       <p><small>Sur la base de vos informations, les meilleurs contenus visuels (images, icones, illustrations…) sont sélectionnés/intégrés.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/link.avif" alt="Icone illustration">
+                                      <img loading="lazy" src="./img/features/link.avif" alt="Icone illustration">
                                       <h6 style="font-weight: bold;">Référencement naturel (SEO)</h6>
                                       <p><small>Les outils indispensables au bon référencement de votre site sont mis en place.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/rocket.avif" alt="Icone illustration">
+                                      <img loading="lazy" src="./img/features/rocket.avif" alt="Icone illustration">
                                       <h6 style="font-weight: bold;">Performance de chargement</h6>
                                       <p><small>Les sites web sont systématiquement optimisés pour la mise en cache des fichiers et images.</small></p>
                                     </div>
@@ -1160,28 +1168,28 @@
                                   </div>
                                   <div class="col-6 col-md-3 col-xl-3 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/target.avif" alt="Icone illustration">
+                                      <img loading="lazy" src="./img/features/target.avif" alt="Icone illustration">
                                       <h6 style="font-weight: bold;">Ecoute de vos besoins</h6>
                                       <p><small>Pour chaque projet, nous prenons le temps de caractériser toutes vos demandes et vous orienter au mieux.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-3 col-xl-3 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/chat-bubble.avif" alt="Icone illustration">
+                                      <img loading="lazy" src="./img/features/chat-bubble.avif" alt="Icone illustration">
                                       <h6 style="font-weight: bold;">Communication transparente</h6>
                                       <p><small>J'échange avec vous tout au long de nos processus, pour vous informer de l’avancement du projet.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-3 col-xl-3 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/calendar.avif" alt="Icone illustration">
+                                      <img loading="lazy" src="./img/features/calendar.avif" alt="Icone illustration">
                                       <h6 style="font-weight: bold;">Livraison</h6>
                                       <p><small>Je livre dans le délai convenu dans votre devis – si toutes les informations nécessaires sont transmises.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-3 col-xl-3 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/tools.avif" alt="Icone illustration">
+                                      <img loading="lazy" src="./img/features/tools.avif" alt="Icone illustration">
                                       <h6 style="font-weight: bold;">Résolution de bugs</h6>
                                       <p><small>Je corrige gratuitement les bugs de fonctionnement ou d’affichage jusqu’à 1 mois après la mise en ligne.</small></p>
                                     </div>
@@ -1204,7 +1212,7 @@
                                     <div class="project__feedback">
                                       <div class="feedback__fauthor d-flex">
                                         <div class="fauthor__avatar">
-                                          <img loading="auto" src="img/testimonials/Monique.webp" alt="Photo profil de client">
+                                          <img loading="lazy" src="img/testimonials/Monique.webp" alt="Photo profil de client">
                                         </div>
                                         <div class="fauthor__info d-flex flex-column justify-content-center">
                                           <h4 class="fauthor__name">Monique Chartrand</h4>
@@ -1227,7 +1235,7 @@
                                     <div class="project__feedback">
                                       <div class="feedback__fauthor d-flex">
                                         <div class="fauthor__avatar">
-                                          <img loading="auto" src="img/testimonials/Aurore.webp" alt="Photo profil de client">
+                                          <img loading="lazy" src="img/testimonials/Aurore.webp" alt="Photo profil de client">
                                         </div>
                                         <div class="fauthor__info d-flex flex-column justify-content-center">
                                           <h4 class="fauthor__name">Aurore Guillot</h4>
@@ -1301,7 +1309,7 @@
 
                           <!-- Project Block - Title with Image Start -->
                           <div class="project__block no-padding no-margin project-image-bg">
-                            <img loading="auto"
+                            <img loading="lazy"
                               class="project-image-bg__portrait"
                               sizes="(max-width: 600px) 100vw, 600px"
                               srcset="
@@ -1310,7 +1318,7 @@
                               ./img/portfolio/abonnement-portrait_gbutsx_c_scale,w_600.avif 600w"
                               src="./img/portfolio/abonnement-portrait_gbutsx_c_scale,w_600.avif"
                               alt="Illustration contenus sur abonnement format portrait">
-                            <img loading="auto"
+                            <img loading="lazy"
                               class="project-image-bg__landscape"
                               sizes="(max-width: 1536px) 100vw, 1536px"
                               srcset="
@@ -1342,9 +1350,9 @@
                                         <div class="col-12 col-md-6 grid-item pdata__item">
                                           <p class="data__title tagline-chapter small type-basic-160lh">Gestion</p>
                                           <span style="display: inline-flex;">
-                                            <img loading="auto" src="./img/portfolio/travail.avif" alt="Project Illustration" style="height:32px; width:32px;">
-                                            <img loading="auto" src="./img/portfolio/travail.avif" alt="Project Illustration" style="height:32px; width:32px;">
-                                            <img loading="auto" src="./img/portfolio/travail.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img loading="lazy" src="./img/portfolio/travail.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img loading="lazy" src="./img/portfolio/travail.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img loading="lazy" src="./img/portfolio/travail.avif" alt="Project Illustration" style="height:32px; width:32px;">
                                           </span>
                                           <p class="data__descr small type-basic-160lh">Complexe</p>
                                         </div>
@@ -1352,9 +1360,9 @@
                                         <div class="col-12 col-md-6 grid-item pdata__item">
                                           <p class="data__title tagline-chapter small type-basic-160lh">Coût</p>
                                           <span style="display: inline-flex;">
-                                            <img loading="auto" src="./img/portfolio/argent.avif" alt="Project Illustration" style="height:32px; width:32px;">
-                                            <img loading="auto" src="./img/portfolio/argent.avif" alt="Project Illustration" style="height:32px; width:32px;">
-                                            <img loading="auto" src="./img/portfolio/argent.avif" alt="Project Illustration" style="height:32px; width:32px; filter: opacity(0.2);">
+                                            <img loading="lazy" src="./img/portfolio/argent.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img loading="lazy" src="./img/portfolio/argent.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img loading="lazy" src="./img/portfolio/argent.avif" alt="Project Illustration" style="height:32px; width:32px; filter: opacity(0.2);">
                                           </span>
                                           <p class="data__descr small type-basic-160lh">Moyen</p>
                                         </div>
@@ -1362,9 +1370,9 @@
                                         <div class="col-12 col-md-6 grid-item pdata__item">
                                           <p class="data__title tagline-chapter small type-basic-160lh">Délai</p>
                                           <span style="display: inline-flex;">
-                                            <img loading="auto" src="./img/portfolio/sablier.avif" alt="Project Illustration" style="height:32px; width:32px;">
-                                            <img loading="auto" src="./img/portfolio/sablier.avif" alt="Project Illustration" style="height:32px; width:32px;">
-                                            <img loading="auto" src="./img/portfolio/sablier.avif" alt="Project Illustration" style="height:32px; width:32px; filter: opacity(0.2);">
+                                            <img loading="lazy" src="./img/portfolio/sablier.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img loading="lazy" src="./img/portfolio/sablier.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img loading="lazy" src="./img/portfolio/sablier.avif" alt="Project Illustration" style="height:32px; width:32px; filter: opacity(0.2);">
                                           </span>
                                           <p class="data__descr small type-basic-160lh">Moyen</p>
                                         </div>
@@ -1418,42 +1426,42 @@
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/setting.avif" alt="Icone illustration">
+                                      <img loading="lazy" src="./img/features/setting.avif" alt="Icone illustration">
                                       <h6 style="font-weight: bold;">Administration Serveur</h6>
                                       <p><small>Le serveur qui héberge votre site est configuré et mis en service.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/computer.avif" alt="Icone illustration">
+                                      <img loading="lazy" src="./img/features/computer.avif" alt="Icone illustration">
                                       <h6 style="font-weight: bold;">Développements</h6>
                                       <p><small>Les fonctionnalités avancées dont vous avez besoin pour votre projet sont listées / développées / implémentées.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/mobile.avif" alt="Icone illustration">
+                                      <img loading="lazy" src="./img/features/mobile.avif" alt="Icone illustration">
                                       <h6 style="font-weight: bold;">Design responsive</h6>
                                       <p><small>Votre interface web est conçue avec le souci d’offrir à vos visiteurs une expérience utile, agréable et unique.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/text.avif" alt="Icone illustration">
+                                      <img loading="lazy" src="./img/features/text.avif" alt="Icone illustration">
                                       <h6 style="font-weight: bold;">Contenus</h6>
                                       <p><small>Sur la base de vos informations, les meilleurs contenus visuels (images, icones, illustrations…) sont sélectionnés/intégrés.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/link.avif" alt="Icone illustration">
+                                      <img loading="lazy" src="./img/features/link.avif" alt="Icone illustration">
                                       <h6 style="font-weight: bold;">Référencement naturel (SEO)</h6>
                                       <p><small>Les outils indispensables au bon référencement de votre site sont mis en place.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/rocket.avif" alt="Icone illustration">
+                                      <img loading="lazy" src="./img/features/rocket.avif" alt="Icone illustration">
                                       <h6 style="font-weight: bold;">Performance de chargement</h6>
                                       <p><small>Les sites web sont systématiquement optimisés pour la mise en cache des fichiers et images.</small></p>
                                     </div>
@@ -1499,28 +1507,28 @@
                                   </div>
                                   <div class="col-6 col-md-3 col-xl-3 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/target.avif" alt="Icone illustration">
+                                      <img loading="lazy" src="./img/features/target.avif" alt="Icone illustration">
                                       <h6 style="font-weight: bold;">Ecoute de vos besoins</h6>
                                       <p><small>Pour chaque projet, nous prenons le temps de caractériser toutes vos demandes et vous orienter au mieux.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-3 col-xl-3 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/chat-bubble.avif" alt="Icone illustration">
+                                      <img loading="lazy" src="./img/features/chat-bubble.avif" alt="Icone illustration">
                                       <h6 style="font-weight: bold;">Communication transparente</h6>
                                       <p><small>J'échange avec vous tout au long de nos processus, pour vous informer de l’avancement du projet.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-3 col-xl-3 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/calendar.avif" alt="Icone illustration">
+                                      <img loading="lazy" src="./img/features/calendar.avif" alt="Icone illustration">
                                       <h6 style="font-weight: bold;">Livraison</h6>
                                       <p><small>Je livre dans le délai convenu dans votre devis – si toutes les informations nécessaires sont transmises.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-3 col-xl-3 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/tools.avif" alt="Icone illustration">
+                                      <img loading="lazy" src="./img/features/tools.avif" alt="Icone illustration">
                                       <h6 style="font-weight: bold;">Résolution de bugs</h6>
                                       <p><small>Je corrige gratuitement les bugs de fonctionnement ou d’affichage jusqu’à 1 mois après la mise en ligne.</small></p>
                                     </div>
@@ -1595,7 +1603,7 @@
 
                           <!-- Project Block - Title with Image Start -->
                           <div class="project__block no-padding no-margin project-image-bg">
-                            <img loading="auto" 
+                            <img loading="lazy" 
                               class="project-image-bg__portrait" 
                               sizes="(max-width: 600px) 100vw, 600px"
                               srcset="
@@ -1604,7 +1612,7 @@
                               ./img/portfolio/devis-portrait_gtqj0b_c_scale,w_600.avif 600w"
                               src="./img/portfolio/devis-portrait_gtqj0b_c_scale,w_600.avif"
                               alt="Project Illustration">
-                            <img loading="auto" 
+                            <img loading="lazy" 
                               class="project-image-bg__landscape" 
                               sizes="(max-width: 1536px) 100vw, 1536px"
                               srcset="
@@ -1641,9 +1649,9 @@
                                         <div class="col-12 col-md-6 grid-item pdata__item">
                                           <p class="data__title tagline-chapter small type-basic-160lh">Coût</p>
                                           <span style="display: inline-flex;">
-                                            <img loading="auto" src="./img/portfolio/argent.avif" alt="Project Illustration" style="height:32px; width:32px;">
-                                            <img loading="auto" src="./img/portfolio/argent.avif" alt="Project Illustration" style="height:32px; width:32px;">
-                                            <img loading="auto" src="./img/portfolio/argent.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img loading="lazy" src="./img/portfolio/argent.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img loading="lazy" src="./img/portfolio/argent.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img loading="lazy" src="./img/portfolio/argent.avif" alt="Project Illustration" style="height:32px; width:32px;">
                                           </span>
                                           <p class="data__descr small type-basic-160lh">Elevé</p>
                                         </div>
@@ -1651,9 +1659,9 @@
                                         <div class="col-12 col-md-6 grid-item pdata__item">
                                           <p class="data__title tagline-chapter small type-basic-160lh">Délai</p>
                                           <span style="display: inline-flex;">
-                                            <img loading="auto" src="./img/portfolio/sablier.avif" alt="Project Illustration" style="height:32px; width:32px;">
-                                            <img loading="auto" src="./img/portfolio/sablier.avif" alt="Project Illustration" style="height:32px; width:32px;">
-                                            <img loading="auto" src="./img/portfolio/sablier.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img loading="lazy" src="./img/portfolio/sablier.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img loading="lazy" src="./img/portfolio/sablier.avif" alt="Project Illustration" style="height:32px; width:32px;">
+                                            <img loading="lazy" src="./img/portfolio/sablier.avif" alt="Project Illustration" style="height:32px; width:32px;">
                                           </span>
                                           <p class="data__descr small type-basic-160lh">Long</p>
                                         </div>
@@ -1707,42 +1715,42 @@
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/setting.avif" alt="Icone illustration">
+                                      <img loading="lazy" src="./img/features/setting.avif" alt="Icone illustration">
                                       <h6 style="font-weight: bold;">Administration Serveur</h6>
                                       <p><small>Le serveur qui héberge votre site est configuré et mis en service.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/computer.avif" alt="Icone illustration">
+                                      <img loading="lazy" src="./img/features/computer.avif" alt="Icone illustration">
                                       <h6 style="font-weight: bold;">Développements</h6>
                                       <p><small>Les fonctionnalités avancées dont vous avez besoin pour votre projet sont listées / développées / implémentées.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/mobile.avif" alt="Icone illustration">
+                                      <img loading="lazy" src="./img/features/mobile.avif" alt="Icone illustration">
                                       <h6 style="font-weight: bold;">Design responsive</h6>
                                       <p><small>Votre interface web est conçue avec le souci d’offrir à vos visiteurs une expérience utile, agréable et unique.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/text.avif" alt="Icone illustration">
+                                      <img loading="lazy" src="./img/features/text.avif" alt="Icone illustration">
                                       <h6 style="font-weight: bold;">Contenus</h6>
                                       <p><small>Sur la base de vos informations, les meilleurs contenus visuels (images, icones, illustrations…) sont sélectionnés/intégrés.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/link.avif" alt="Icone illustration">
+                                      <img loading="lazy" src="./img/features/link.avif" alt="Icone illustration">
                                       <h6 style="font-weight: bold;">Référencement naturel (SEO)</h6>
                                       <p><small>Les outils indispensables au bon référencement de votre site sont mis en place.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-4 col-xl-2 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/rocket.avif" alt="Icone illustration">
+                                      <img loading="lazy" src="./img/features/rocket.avif" alt="Icone illustration">
                                       <h6 style="font-weight: bold;">Performance de chargement</h6>
                                       <p><small>Les sites web sont systématiquement optimisés pour la mise en cache des fichiers et images.</small></p>
                                     </div>
@@ -1789,28 +1797,28 @@
                                   </div>
                                   <div class="col-6 col-md-3 col-xl-3 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/target.avif" alt="Icone illustration">
+                                      <img loading="lazy" src="./img/features/target.avif" alt="Icone illustration">
                                       <h6 style="font-weight: bold;">Ecoute de vos besoins</h6>
                                       <p><small>Pour chaque projet, nous prenons le temps de caractériser toutes vos demandes et vous orienter au mieux.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-3 col-xl-3 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/chat-bubble.avif" alt="Icone illustration">
+                                      <img loading="lazy" src="./img/features/chat-bubble.avif" alt="Icone illustration">
                                       <h6 style="font-weight: bold;">Communication transparente</h6>
                                       <p><small>J'échange avec vous tout au long de nos processus, pour vous informer de l’avancement du projet.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-3 col-xl-3 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/calendar.avif" alt="Icone illustration">
+                                      <img loading="lazy" src="./img/features/calendar.avif" alt="Icone illustration">
                                       <h6 style="font-weight: bold;">Livraison</h6>
                                       <p><small>Je livre dans le délai convenu dans votre devis – si toutes les informations nécessaires sont transmises.</small></p>
                                     </div>
                                   </div>
                                   <div class="col-6 col-md-3 col-xl-3 grid-item">
                                     <div class="project__illustration" style="border-radius:0;">
-                                      <img loading="auto" src="./img/features/tools.avif" alt="Icone illustration">
+                                      <img loading="lazy" src="./img/features/tools.avif" alt="Icone illustration">
                                       <h6 style="font-weight: bold;">Résolution de bugs</h6>
                                       <p><small>Je corrige gratuitement les bugs de fonctionnement ou d’affichage jusqu’à 1 mois après la mise en ligne.</small></p>
                                     </div>
@@ -1833,7 +1841,7 @@
                                     <div class="project__feedback">
                                       <div class="feedback__fauthor d-flex">
                                         <div class="fauthor__avatar">
-                                          <img loading="auto" src="img/testimonials/Romain.webp" alt="Photo profil de client">
+                                          <img loading="lazy" src="img/testimonials/Romain.webp" alt="Photo profil de client">
                                         </div>
                                         <div class="fauthor__info d-flex flex-column justify-content-center">
                                           <h4 class="fauthor__name">Romain Plagnard</h4>
@@ -1856,7 +1864,7 @@
                                     <div class="project__feedback">
                                       <div class="feedback__fauthor d-flex">
                                         <div class="fauthor__avatar">
-                                          <img loading="auto" src="img/testimonials/Dominique.webp" alt="Photo profil de client">
+                                          <img loading="lazy" src="img/testimonials/Dominique.webp" alt="Photo profil de client">
                                         </div>
                                         <div class="fauthor__info d-flex flex-column justify-content-center">
                                           <h4 class="fauthor__name">Dominique BRUGEROLLE de FRAISSINETTE</h4>
@@ -1994,42 +2002,42 @@
                               <!-- tools single item -->
                               <div class="tools-cards__item-l d-flex grid-item animate-card-6">
                                 <div class="tools-cards__card">
-                                  <img loading="auto" class="tools-cards__icon animate-in-up" src="img/features/target.avif" alt="Tools Icon">
+                                  <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/features/target.avif" alt="Tools Icon">
                                   <h6 class="tools-cards__caption tagline-tool animate-in-up">un cadrage projet complet<small class="small">après une analyse approfondie des besoins</small></h6>
                                 </div>
                               </div>
                               <!-- tools single item -->
                               <div class="tools-cards__item-l d-flex grid-item animate-card-6">
                                 <div class="tools-cards__card">
-                                  <img loading="auto" class="tools-cards__icon animate-in-up" src="img/features/calender.avif" alt="Tools Icon">
+                                  <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/features/calender.avif" alt="Tools Icon">
                                   <h6 class="tools-cards__caption tagline-tool animate-in-up">un suivi agile de l'avancement<small class="small">avec un Kanban et un site en pré-production</small></h6>
                                 </div>
                               </div>
                               <!-- tools single item -->
                               <div class="tools-cards__item-l d-flex grid-item animate-card-6">
                                 <div class="tools-cards__card">
-                                  <img loading="auto" class="tools-cards__icon animate-in-up" src="img/features/flash.avif" alt="Tools Icon">
+                                  <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/features/flash.avif" alt="Tools Icon">
                                   <h6 class="tools-cards__caption tagline-tool animate-in-up">des animations d'ateliers <small class="small">de créativité et de résolution de problèmes</small></h6>
                                 </div>
                               </div>
                               <!-- tools single item -->
                               <div class="tools-cards__item-l d-flex grid-item animate-card-6">
                                 <div class="tools-cards__card">
-                                  <img loading="auto" class="tools-cards__icon animate-in-up" src="img/features/chat-bubble.avif" alt="Tools Icon">
+                                  <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/features/chat-bubble.avif" alt="Tools Icon">
                                   <h6 class="tools-cards__caption tagline-tool animate-in-up">une gestion collaborative <small class="small">avec des équipes multidisciplinaires</small></h6>
                                 </div>
                               </div>
                               <!-- tools single item -->
                               <div class="tools-cards__item-l d-flex grid-item animate-card-6">
                                 <div class="tools-cards__card">
-                                  <img loading="auto" class="tools-cards__icon animate-in-up" src="img/features/lab.avif" alt="Tools Icon">
+                                  <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/features/lab.avif" alt="Tools Icon">
                                   <h6 class="tools-cards__caption tagline-tool animate-in-up">des tests <small class="small">méthodiques et rigoureux</small></h6>
                                 </div>
                               </div>
                               <!-- tools single item -->
                               <div class="tools-cards__item-l d-flex grid-item animate-card-6">
                                 <div class="tools-cards__card">
-                                  <img loading="auto" class="tools-cards__icon animate-in-up" src="img/features/folder.avif" alt="Tools Icon">
+                                  <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/features/folder.avif" alt="Tools Icon">
                                   <h6 class="tools-cards__caption tagline-tool animate-in-up">une formation client <small class="small">sur mesure</small></h6>
                                 </div>
                               </div>
@@ -2084,7 +2092,7 @@
                         fullpranayoga.com
                       </div>
                       <div class="item image image-1">
-                        <img loading="auto" 
+                        <img loading="lazy" 
                           sizes="(max-width: 1630px) 100vw, 1630px"
                           srcset="
                           img/works/portfolio-fullpranayoga.com-accueil_bpvuyu_c_scale,w_240.avif 240w,
@@ -2098,7 +2106,7 @@
                         campuseagles.com
                       </div>
                       <div class="item image image-2">
-                        <img loading="auto" 
+                        <img loading="lazy" 
                           sizes="(max-width: 1630px) 100vw, 1630px"
                           srcset="
                           img/works/portfolio-campuseagles.com-accueil_mghmes_c_scale,w_240.avif 240w,
@@ -2112,7 +2120,7 @@
                         fab16.org
                       </div>
                       <div class="item image image-3">
-                        <img loading="auto" 
+                        <img loading="lazy" 
                           sizes="(max-width: 1630px) 100vw, 1630px"
                           srcset="
                           img/works/portfolio-fab16.org-accueil_kfozad_c_scale,w_240.avif 240w,
@@ -2126,7 +2134,7 @@
                         fabcity-montreal.com
                       </div>
                       <div class="item image image-4">
-                        <img loading="auto" 
+                        <img loading="lazy" 
                           sizes="(max-width: 1630px) 100vw, 1630px"
                           srcset="
                           img/works/portfolio-fabcity-montreal-home_mexvon_c_scale,w_240.avif 240w,
@@ -2140,7 +2148,7 @@
                         ping.communautique.quebec
                       </div>
                       <div class="item image image-5">
-                        <img loading="auto" 
+                        <img loading="lazy" 
                           sizes="(max-width: 1630px) 100vw, 1630px"
                           srcset="
                           img/works/portfolio-pingcommunautique.quebec-accueil_c1fe5q_c_scale,w_240.avif 240w,
@@ -2154,7 +2162,7 @@
                         summitfabcity-montreal.quebec
                       </div>
                       <div class="item image image-6">
-                        <img loading="auto" 
+                        <img loading="lazy" 
                           sizes="(max-width: 1630px) 100vw, 1630px"
                           srcset="
                           img/works/summitfabcity-montrealquebec-home-portfolio_akgr5z_c_scale,w_240.avif 240w,
@@ -2168,7 +2176,7 @@
                         ecologisenergies.fr
                       </div>
                       <div class="item image image-7">
-                        <img loading="auto" 
+                        <img loading="lazy" 
                           sizes="(max-width: 645px) 100vw, 645px"
                           srcset="
                           img/works/ecologisenergiesfr-accueil-portfolio_r0shwy_c_scale,w_240.avif 240w,
@@ -2182,7 +2190,7 @@
                         lasercleaning.ch
                       </div>
                       <div class="item image image-8">
-                        <img loading="auto" 
+                        <img loading="lazy" 
                           sizes="(max-width: 645px) 100vw, 645px"
                           srcset="
                           img/works/lasercleaningch-accueil-portfolio_pawlt6_c_scale,w_240.avif 240w,
@@ -2196,7 +2204,7 @@
                         echofab.quebec
                       </div>
                       <div class="item image image-9">
-                        <img loading="auto" 
+                        <img loading="lazy" 
                           sizes="(max-width: 645px) 100vw, 645px"
                           srcset="
                           img/works/portfolio-echofab.quebec-accueil_rgz7yi_c_scale,w_240.avif 240w,
@@ -2210,7 +2218,7 @@
                         elisameliani.com
                       </div>
                       <div class="item image image-10">
-                        <img loading="auto" 
+                        <img loading="lazy" 
                           sizes="(max-width: 645px) 100vw, 645px"
                           srcset="
                           img/works/portfolio-elisameliani.com-accueil_xo3m3g_c_scale,w_240.avif 240w,
@@ -2224,7 +2232,7 @@
                         fablabsnation.ca
                       </div>
                       <div class="item image image-11">
-                        <img loading="auto" 
+                        <img loading="lazy" 
                           sizes="(max-width: 645px) 100vw, 645px"
                           srcset="
                           img/works/portfolio-fablabsnation.ca-accueil_kd6o9v_c_scale,w_240.avif 240w,
@@ -2238,7 +2246,7 @@
                         kaacouture.com
                       </div>
                       <div class="item image image-12">
-                        <img loading="auto" 
+                        <img loading="lazy" 
                           sizes="(max-width: 645px) 100vw, 645px"
                           srcset="
                           img/works/portfolio-kaacouture.com-accueil_vkscin_c_scale,w_240.avif 240w,
@@ -2252,7 +2260,7 @@
                         myyogaconnect.com
                       </div>
                       <div class="item image image-13">
-                        <img loading="auto" 
+                        <img loading="lazy" 
                           sizes="(max-width: 645px) 100vw, 645px"
                           srcset="
                           img/works/portfolio-myyogaconnect.com-accueil-non-connecte_qujc8r_c_scale,w_240.avif 240w,
@@ -2266,7 +2274,7 @@
                         communautique.quebec
                       </div>
                       <div class="item image image-14">
-                        <img loading="auto" 
+                        <img loading="lazy" 
                           sizes="(max-width: 645px) 100vw, 645px"
                           srcset="
                           img/works/portfolio-communautique.quebec-accueil_jiesap_c_scale,w_240.avif 240w,
@@ -2280,7 +2288,7 @@
                         jaiio.fr
                       </div>
                       <div class="item image image-15">
-                        <img loading="auto" 
+                        <img loading="lazy" 
                           sizes="(max-width: 1630px) 100vw, 1630px"
                           srcset="
                           img/works/portfolio-jaiio.fr-accueil_bvasp2_c_scale,w_240.avif 240w,
@@ -2294,7 +2302,7 @@
                         marketeurope.eu
                       </div>
                       <div class="item image image-16">
-                        <img loading="auto" 
+                        <img loading="lazy" 
                           sizes="(max-width: 1630px) 100vw, 1630px"
                           srcset="
                           img/works/portfolio-marketeurope.eu-accueil_v4twoe_c_scale,w_240.avif 240w,
@@ -2308,7 +2316,7 @@
                         menuiserie-fenetre.fr
                       </div>
                       <div class="item image image-17">
-                        <img loading="auto" 
+                        <img loading="lazy" 
                           sizes="(max-width: 1630px) 100vw, 1630px"
                           srcset="
                           img/works/portfolio-menuiserie-fenetre.fr-accueil_chapsq_c_scale,w_240.avif 240w,
@@ -2322,7 +2330,7 @@
                         frenchr.com
                       </div>
                       <div class="item image image-18">
-                        <img loading="auto" 
+                        <img loading="lazy" 
                           sizes="(max-width: 1630px) 100vw, 1630px"
                           srcset="
                           img/works/portfolio-frenchr.com-accueil_vvzfgd_c_scale,w_240.avif 240w,
@@ -2336,7 +2344,7 @@
                         msecoursesenvrac.com
                       </div>
                       <div class="item image image-19">
-                        <img loading="auto" 
+                        <img loading="lazy" 
                           sizes="(max-width: 1630px) 100vw, 1630px"
                           srcset="
                           img/works/portfolio-mescoursesenvrac.com-accueil_nd8mlr_c_scale,w_240.avif 240w,
@@ -2403,7 +2411,7 @@
                           <div class="col-12 col-md-6 cards__item grid-item animate-card-2">
                             <div class="cards__card d-flex flex-column">
                               <div class="cards__image cards__image-v2 d-flex animate-in-up">
-                                <img loading="auto" src="img/features/calendar.avif" alt="Service/Feature Image">
+                                <img loading="lazy" src="img/features/calendar.avif" alt="Service/Feature Image">
                               </div>
                               <div class="cards__descr">
                                 <h3 class="cards__title animate-in-up">Gestion de projet innovant</h3>
@@ -2434,7 +2442,7 @@
                           <div class="col-12 col-md-6 cards__item grid-item animate-card-2">
                             <div class="cards__card d-flex flex-column">
                               <div class="cards__image cards__image-v2 d-flex animate-in-up">
-                                <img loading="auto" src="img/features/painting-kit.avif" alt="Service/Feature Image">
+                                <img loading="lazy" src="img/features/painting-kit.avif" alt="Service/Feature Image">
                               </div>
                               <div class="cards__descr">
                                 <h3 class="cards__title animate-in-up">User eXperience</h3>
@@ -2468,7 +2476,7 @@
                           <div class="col-12 col-md-6 cards__item grid-item animate-card-2">
                             <div class="cards__card d-flex flex-column">
                               <div class="cards__image cards__image-v2 d-flex animate-in-up">
-                                <img loading="auto" src="img/features/credit-card.avif" alt="Service/Feature Image">
+                                <img loading="lazy" src="img/features/credit-card.avif" alt="Service/Feature Image">
                               </div>
                               <div class="cards__descr">
                                 <h3 class="cards__title animate-in-up">Fonctionnalités ecommerce</h3>
@@ -2499,7 +2507,7 @@
                           <div class="col-12 col-md-6 cards__item grid-item animate-card-2">
                             <div class="cards__card d-flex flex-column">
                               <div class="cards__image cards__image-v2 d-flex animate-in-up">
-                                <img loading="auto" src="img/features/folder.avif" alt="Service/Feature Image">
+                                <img loading="lazy" src="img/features/folder.avif" alt="Service/Feature Image">
                               </div>
                               <div class="cards__descr">
                                 <h3 class="cards__title animate-in-up">Formations</h3>
@@ -2810,7 +2818,7 @@
                       <div class="tools-cards__item d-flex grid-item animate-card-4">
                         <div class="tools-cards__card">
                           <a href="https://wordpress.org/" target="_blank">
-                            <img loading="auto" class="tools-cards__icon animate-in-up" src="img/icons/icon-wordpress.svg" alt="Tools Icon">
+                            <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/icons/icon-wordpress.svg" alt="Tools Icon">
                             <h6 class="tools-cards__caption tagline-tool animate-in-up">WordPress</h6>
                           </a>
                         </div>
@@ -2819,7 +2827,7 @@
                       <div class="tools-cards__item d-flex grid-item animate-card-4">
                         <div class="tools-cards__card">
                           <a href="https://woocommerce.com/fr/" target="_blank">
-                            <img loading="auto" class="tools-cards__icon animate-in-up" src="img/icons/icon-woocommerce.svg" alt="Tools Icon">
+                            <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/icons/icon-woocommerce.svg" alt="Tools Icon">
                             <h6 class="tools-cards__caption tagline-tool animate-in-up">Woo Commerce <small class="small">plugin métier Ecommerce</small></h6>
                           </a>
                         </div>
@@ -2828,7 +2836,7 @@
                       <div class="tools-cards__item d-flex grid-item animate-card-4">
                         <div class="tools-cards__card">
                           <a href="https://dokan.co/fr/wordpress/" target="_blank">
-                            <img loading="auto" class="tools-cards__icon animate-in-up" src="img/icons/icon-dokan.svg" alt="Tools Icon">
+                            <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/icons/icon-dokan.svg" alt="Tools Icon">
                             <h6 class="tools-cards__caption tagline-tool animate-in-up">Dokan <small class="small">plugin métier Marketplace</small></h6>
                           </a>
                         </div>
@@ -2837,7 +2845,7 @@
                       <div class="tools-cards__item d-flex grid-item animate-card-4">
                         <div class="tools-cards__card">
                           <a href="https://theeventscalendar.com/" target="_blank">
-                            <img loading="auto" class="tools-cards__icon animate-in-up" src="img/icons/icon-theeventscalendar.avif" alt="Tools Icon">
+                            <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/icons/icon-theeventscalendar.avif" alt="Tools Icon">
                             <h6 class="tools-cards__caption tagline-tool animate-in-up">The Events Calendar <small class="small">plugin métier Réservation</small></h6>
                           </a>
                         </div>
@@ -2846,7 +2854,7 @@
                       <div class="tools-cards__item d-flex grid-item animate-card-4">
                         <div class="tools-cards__card">
                           <a href="https://www.paidmembershipspro.com/" target="_blank">
-                            <img loading="auto" class="tools-cards__icon animate-in-up" src="img/icons/icon-pmpro.avif" alt="Tools Icon">
+                            <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/icons/icon-pmpro.avif" alt="Tools Icon">
                             <h6 class="tools-cards__caption tagline-tool animate-in-up">PMPro <small class="small">plugin métier Abonnement</small></h6>
                           </a>
                         </div>
@@ -2855,7 +2863,7 @@
                       <div class="tools-cards__item d-flex grid-item animate-card-4">
                         <div class="tools-cards__card">
                           <a href="https://www.o2switch.fr/" target="_blank">
-                            <img loading="auto" class="tools-cards__icon animate-in-up" src="img/icons/icon-o2switch.webp" alt="Tools Icon">
+                            <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/icons/icon-o2switch.webp" alt="Tools Icon">
                             <h6 class="tools-cards__caption tagline-tool animate-in-up">Hébergement Serveur</h6>
                           </a>
                         </div>
@@ -2864,7 +2872,7 @@
                       <div class="tools-cards__item d-flex grid-item animate-card-4">
                         <div class="tools-cards__card">
                           <a href="https://github.com/" target="_blank">
-                            <img loading="auto" class="tools-cards__icon animate-in-up" src="img/icons/icon-github.svg" alt="Tools Icon">
+                            <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/icons/icon-github.svg" alt="Tools Icon">
                             <h6 class="tools-cards__caption tagline-tool animate-in-up">GitHub <small class="small">outil de gestion de code</small></h6>
                           </a>
                         </div>
@@ -2873,7 +2881,7 @@
                       <div class="tools-cards__item d-flex grid-item animate-card-4">
                         <div class="tools-cards__card">
                           <a href="https://www.php.net/" target="_blank">
-                            <img loading="auto" class="tools-cards__icon animate-in-up" src="img/icons/icon-php.svg" alt="Tools Icon">
+                            <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/icons/icon-php.svg" alt="Tools Icon">
                             <h6 class="tools-cards__caption tagline-tool animate-in-up">PHP <small class="small">langage de programmation</small></h6>
                           </a>
                         </div>
@@ -2882,7 +2890,7 @@
                       <div class="tools-cards__item d-flex grid-item animate-card-4">
                         <div class="tools-cards__card">
                           <a href="https://fr.react.dev/" target="_blank">
-                            <img loading="auto" class="tools-cards__icon animate-in-up" src="img/icons/icon-react.svg" alt="Tools Icon">
+                            <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/icons/icon-react.svg" alt="Tools Icon">
                             <h6 class="tools-cards__caption tagline-tool animate-in-up">React <small class="small">langage de programmation</small></h6>
                           </a>
                         </div>
@@ -2891,7 +2899,7 @@
                       <div class="tools-cards__item d-flex grid-item animate-card-4">
                         <div class="tools-cards__card">
                           <a href="https://trello.com/fr" target="_blank">
-                            <img loading="auto" class="tools-cards__icon animate-in-up" src="img/icons/icon-trello.webp" alt="Tools Icon">
+                            <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/icons/icon-trello.webp" alt="Tools Icon">
                             <h6 class="tools-cards__caption tagline-tool animate-in-up">Trello  <small class="small">outil simple de gestion de projet</small></h6>
                           </a>
                         </div>
@@ -2900,7 +2908,7 @@
                       <div class="tools-cards__item d-flex grid-item animate-card-4">
                         <div class="tools-cards__card">
                           <a href="https://www.figma.com/fr-fr/" target="_blank">
-                            <img loading="auto" class="tools-cards__icon animate-in-up" src="img/icons/icon-figma.svg" alt="Tools Icon">
+                            <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/icons/icon-figma.svg" alt="Tools Icon">
                             <h6 class="tools-cards__caption tagline-tool animate-in-up">Figma <small class="small">outil de prototypage</small></h6>
                           </a>
                         </div>
@@ -2909,7 +2917,7 @@
                       <div class="tools-cards__item d-flex grid-item animate-card-4">
                         <div class="tools-cards__card">
                           <a href="https://cursor.com/" target="_blank">
-                            <img loading="auto" class="tools-cards__icon animate-in-up" src="img/icons/icon-cursor.svg" alt="Tools Icon">
+                            <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/icons/icon-cursor.svg" alt="Tools Icon">
                             <h6 class="tools-cards__caption tagline-tool animate-in-up">Cursor  <small class="small">IA pour code</small></h6>
                           </a>
                         </div>
@@ -2965,7 +2973,7 @@
                                   </div>
                                   <div class="col-12 col-lg-6 testimonials-card__timage fullheight-l">
                                     <div class="timage__inner fullheight-l animate-in-up">
-                                      <img loading="auto" 
+                                      <img loading="lazy" 
                                         sizes="(max-width: 1630px) 100vw, 1630px"
                                         srcset="
                                         img/works/portfolio-sophiebaudin.com-accueil_jo3xeh_c_scale,w_240.avif 240w,
@@ -2987,7 +2995,7 @@
                                   <div class="col-12 col-lg-6 testimonials-card__tdata">
                                     <div class="testimonials-card__tauthor d-flex">
                                       <div class="tauthor__avatar animate-in-up">
-                                        <img loading="auto" src="img/testimonials/Romain.webp" alt="Photo profil de client">
+                                        <img loading="lazy" src="img/testimonials/Romain.webp" alt="Photo profil de client">
                                       </div>
                                       <div class="tauthor__info d-flex flex-column justify-content-center">
                                         <h4 class="tauthor__name animate-in-up">Romain Plagnard</h4>
@@ -3009,7 +3017,7 @@
                                   </div>
                                   <div class="col-12 col-lg-6 testimonials-card__timage fullheight-l">
                                     <div class="timage__inner fullheight-l animate-in-up">
-                                      <img loading="auto" 
+                                      <img loading="lazy" 
                                         sizes="(max-width: 1630px) 100vw, 1630px"
                                         srcset="
                                         img/works/portfolio-menuiserie-fenetre.fr-accueil_chapsq_c_scale,w_240.avif 240w,
@@ -3031,7 +3039,7 @@
                                   <div class="col-12 col-lg-6 testimonials-card__tdata">
                                     <div class="testimonials-card__tauthor d-flex">
                                       <div class="tauthor__avatar animate-in-up">
-                                        <img loading="auto" src="img/testimonials/Antoine.webp" alt="Photo profil de client">
+                                        <img loading="lazy" src="img/testimonials/Antoine.webp" alt="Photo profil de client">
                                       </div>
                                       <div class="tauthor__info d-flex flex-column justify-content-center">
                                         <h4 class="tauthor__name animate-in-up">Antoine Spaccesi</h4>
@@ -3068,7 +3076,7 @@
                                   <div class="col-12 col-lg-6 testimonials-card__tdata">
                                     <div class="testimonials-card__tauthor d-flex">
                                       <div class="tauthor__avatar animate-in-up">
-                                        <img loading="auto" src="img/testimonials/Aurore.webp" alt="Photo profil de client">
+                                        <img loading="lazy" src="img/testimonials/Aurore.webp" alt="Photo profil de client">
                                       </div>
                                       <div class="tauthor__info d-flex flex-column justify-content-center">
                                         <h4 class="tauthor__name animate-in-up">Aurore Guillot</h4>
@@ -3090,7 +3098,7 @@
                                   </div>
                                   <div class="col-12 col-lg-6 testimonials-card__timage fullheight-l">
                                     <div class="timage__inner fullheight-l animate-in-up">
-                                      <img loading="auto" 
+                                      <img loading="lazy" 
                                         sizes="(max-width: 1630px) 100vw, 1630px"
                                         srcset="
                                         img/works/portfolio-fullpranayoga.com-accueil_bpvuyu_c_scale,w_240.avif 240w,
@@ -3112,7 +3120,7 @@
                                   <div class="col-12 col-lg-6 testimonials-card__tdata">
                                     <div class="testimonials-card__tauthor d-flex">
                                       <div class="tauthor__avatar animate-in-up">
-                                        <img loading="auto" src="img/testimonials/Oscar.webp" alt="Photo profil de client">
+                                        <img loading="lazy" src="img/testimonials/Oscar.webp" alt="Photo profil de client">
                                       </div>
                                       <div class="tauthor__info d-flex flex-column justify-content-center">
                                         <h4 class="tauthor__name animate-in-up">Oscar De Poncins</h4>
@@ -3134,7 +3142,7 @@
                                   </div>
                                   <div class="col-12 col-lg-6 testimonials-card__timage fullheight-l">
                                     <div class="timage__inner fullheight-l animate-in-up">
-                                      <img loading="auto" 
+                                      <img loading="lazy" 
                                         sizes="(max-width: 1630px) 100vw, 1630px"
                                         srcset="
                                         img/works/portfolio-frenchr.com-accueil_vvzfgd_c_scale,w_240.avif 240w,
@@ -3156,7 +3164,7 @@
                                   <div class="col-12 col-lg-6 testimonials-card__tdata">
                                     <div class="testimonials-card__tauthor d-flex">
                                       <div class="tauthor__avatar animate-in-up">
-                                        <img loading="auto" src="img/testimonials/Julie.webp" alt="Photo profil de client">
+                                        <img loading="lazy" src="img/testimonials/Julie.webp" alt="Photo profil de client">
                                       </div>
                                       <div class="tauthor__info d-flex flex-column justify-content-center">
                                         <h4 class="tauthor__name animate-in-up">Julie Kera</h4>
@@ -3178,7 +3186,7 @@
                                   </div>
                                   <div class="col-12 col-lg-6 testimonials-card__timage fullheight-l">
                                     <div class="timage__inner fullheight-l animate-in-up">
-                                      <img loading="auto" 
+                                      <img loading="lazy" 
                                         sizes="(max-width: 1630px) 100vw, 1630px"
                                         srcset="
                                         img/works/portfolio-juliekeraphotography.com-accueil_lcojkw_c_scale,w_240.avif 240w,
@@ -3200,7 +3208,7 @@
                                   <div class="col-12 col-lg-6 testimonials-card__tdata">
                                     <div class="testimonials-card__tauthor d-flex">
                                       <div class="tauthor__avatar animate-in-up">
-                                        <img loading="auto" src="img/testimonials/Carole.webp" alt="Photo profil de client">
+                                        <img loading="lazy" src="img/testimonials/Carole.webp" alt="Photo profil de client">
                                       </div>
                                       <div class="tauthor__info d-flex flex-column justify-content-center">
                                         <h4 class="tauthor__name animate-in-up">Carole Lymer</h4>
@@ -3222,7 +3230,7 @@
                                   </div>
                                   <div class="col-12 col-lg-6 testimonials-card__timage fullheight-l">
                                     <div class="timage__inner fullheight-l animate-in-up">
-                                      <img loading="auto" 
+                                      <img loading="lazy" 
                                         sizes="(max-width: 1630px) 100vw, 1630px"
                                         srcset="
                                         img/works/portfolio-mescoursesenvrac.com-accueil_nd8mlr_c_scale,w_240.avif 240w,
@@ -3244,7 +3252,7 @@
                                   <div class="col-12 col-lg-6 testimonials-card__tdata">
                                     <div class="testimonials-card__tauthor d-flex">
                                       <div class="tauthor__avatar animate-in-up">
-                                        <img loading="auto" src="img/testimonials/Leopold.webp" alt="Photo profil de client">
+                                        <img loading="lazy" src="img/testimonials/Leopold.webp" alt="Photo profil de client">
                                       </div>
                                       <div class="tauthor__info d-flex flex-column justify-content-center">
                                         <h4 class="tauthor__name animate-in-up">Leopold Rolin</h4>
@@ -3266,7 +3274,7 @@
                                   </div>
                                   <div class="col-12 col-lg-6 testimonials-card__timage fullheight-l">
                                     <div class="timage__inner fullheight-l animate-in-up">
-                                      <img loading="auto" 
+                                      <img loading="lazy" 
                                         sizes="(max-width: 1630px) 100vw, 1630px"
                                         srcset="
                                         img/works/portfolio-lesphilogynes.com-accueil_hxlbls_c_scale,w_240.avif 240w,
@@ -3288,7 +3296,7 @@
                                   <div class="col-12 col-lg-6 testimonials-card__tdata">
                                     <div class="testimonials-card__tauthor d-flex">
                                       <div class="tauthor__avatar animate-in-up">
-                                        <img loading="auto" src="img/testimonials/Dominique.webp" alt="Photo profil de client">
+                                        <img loading="lazy" src="img/testimonials/Dominique.webp" alt="Photo profil de client">
                                       </div>
                                       <div class="tauthor__info d-flex flex-column justify-content-center">
                                         <h4 class="tauthor__name animate-in-up">Dominique BRUGEROLLE de FRAISSINETTE</h4>
@@ -3310,7 +3318,7 @@
                                   </div>
                                   <div class="col-12 col-lg-6 testimonials-card__timage fullheight-l">
                                     <div class="timage__inner fullheight-l animate-in-up">
-                                      <img loading="auto" 
+                                      <img loading="lazy" 
                                         sizes="(max-width: 645px) 100vw, 645px"
                                         srcset="
                                         img/works/lasercleaningch-accueil-portfolio_pawlt6_c_scale,w_240.avif 240w,
@@ -3332,7 +3340,7 @@
                                   <div class="col-12 col-lg-6 testimonials-card__tdata">
                                     <div class="testimonials-card__tauthor d-flex">
                                       <div class="tauthor__avatar animate-in-up">
-                                        <img loading="auto" src="img/testimonials/Karole.webp" alt="Photo profil de client">
+                                        <img loading="lazy" src="img/testimonials/Karole.webp" alt="Photo profil de client">
                                       </div>
                                       <div class="tauthor__info d-flex flex-column justify-content-center">
                                         <h4 class="tauthor__name animate-in-up">Karolle-Anne Taillé</h4>
@@ -3354,7 +3362,7 @@
                                   </div>
                                   <div class="col-12 col-lg-6 testimonials-card__timage fullheight-l">
                                     <div class="timage__inner fullheight-l animate-in-up">
-                                      <img loading="auto" 
+                                      <img loading="lazy" 
                                         sizes="(max-width: 645px) 100vw, 645px"
                                         srcset="
                                         img/works/portfolio-kaacouture.com-accueil_vkscin_c_scale,w_240.avif 240w,
@@ -3376,7 +3384,7 @@
                                   <div class="col-12 col-lg-6 testimonials-card__tdata">
                                     <div class="testimonials-card__tauthor d-flex">
                                       <div class="tauthor__avatar animate-in-up">
-                                        <img loading="auto" src="img/testimonials/Monique.webp" alt="Photo profil de client">
+                                        <img loading="lazy" src="img/testimonials/Monique.webp" alt="Photo profil de client">
                                       </div>
                                       <div class="tauthor__info d-flex flex-column justify-content-center">
                                         <h4 class="tauthor__name animate-in-up">Monique Chartrand</h4>
@@ -3404,7 +3412,7 @@
                                   </div>
                                   <div class="col-12 col-lg-6 testimonials-card__timage fullheight-l">
                                     <div class="timage__inner fullheight-l animate-in-up">
-                                      <img loading="auto" 
+                                      <img loading="lazy" 
                                         sizes="(max-width: 645px) 100vw, 645px"
                                         srcset="
                                         img/works/portfolio-communautique.quebec-accueil_jiesap_c_scale,w_240.avif 240w,
@@ -4541,9 +4549,9 @@
     </div>
 
     <!-- Load Scripts Start -->
-    <script src="js/libs.min.js" async></script>
+    <script src="js/libs.min.js"></script>
     <script src="js/gallery-init.js" defer></script>
-    <script src="js/app-min.js"async></script>
+    <script src="js/app-min.js" defer></script>
     <!-- Load Scripts End -->
     
   </body>
