@@ -152,36 +152,29 @@ if(document.querySelector(".stack-item")) {
 
   function initCards(){
     animation.clear();
-    // Use requestAnimationFrame to avoid forced reflow
-    requestAnimationFrame(() => {
-      cardHeight = cards[0].offsetHeight;
-      //console.log("initCards()", cardHeight);
-      cards.forEach((card, index) => {
-        if(index > 0){
-          gsap.set(card, {y:index * cardHeight});
-          animation.to(card, {y:0, duration:index*0.5, ease:"none"},0);
-        }
-      });
+    cardHeight = cards[0].offsetHeight;
+    //console.log("initCards()", cardHeight);
+    cards.forEach((card, index) => {
+      if(index > 0){
+        gsap.set(card, {y:index * cardHeight});
+        animation.to(card, {y:0, duration:index*0.5, ease:"none"},0);
+      }
     });
   };
+  initCards();
 
-  // Defer initialization to avoid forced reflow on page load
-  requestAnimationFrame(() => {
-    initCards();
-
-    ScrollTrigger.create({
-      trigger: ".stack-wrapper",
-      start: "top top",
-      pin: true,
-      end: ()=>`+=${(cards.length * cardHeight) + stickySpace.offsetHeight}`,
-      scrub: true,
-      animation: animation,
-      //markers: true,
-      invalidateOnRefresh: true
-    });
-
-    ScrollTrigger.addEventListener("refreshInit", initCards);
+  ScrollTrigger.create({
+    trigger: ".stack-wrapper",
+    start: "top top",
+    pin: true,
+    end: ()=>`+=${(cards.length * cardHeight) + stickySpace.offsetHeight}`,
+    scrub: true,
+    animation: animation,
+    //markers: true,
+    invalidateOnRefresh: true
   });
+
+  ScrollTrigger.addEventListener("refreshInit", initCards);
 };
 // --------------------------------------------- //
 // Stacking Cards End
@@ -329,7 +322,6 @@ const initMarquee = () => {
     };
     items.forEach((itemBlock) => {
       marqueeObject.el = itemBlock.querySelector(".items__container");
-      // Read offsetWidth BEFORE modifying DOM to avoid forced reflow
       marqueeObject.width = marqueeObject.el.offsetWidth;
 			marqueeObject.el.innerHTML += marqueeObject.el.innerHTML;
       //let dirFromLeft = "-=50%";
