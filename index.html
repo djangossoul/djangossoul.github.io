@@ -23,6 +23,11 @@
     <link rel="manifest" href="img/favicon/manifest.webmanifest" crossorigin="use-credentials">
     <!-- Template Favicon & Icons End -->
 
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://assets.calendly.com">
+
     <!-- Facebook Metadata Start -->
     <meta property="og:image:height" content="1200">
     <meta property="og:image:width" content="1200">
@@ -33,6 +38,9 @@
     <!-- Facebook Metadata End -->
 
     <!-- Template Styles Start -->
+    <link rel="preload" href="css/loaders/loader-min.css" as="style">
+    <link rel="preload" href="css/plugins-min.css" as="style">
+    <link rel="preload" href="css/main-min.css" as="style">
     <link rel="stylesheet" type="text/css" href="css/loaders/loader-min.css">
     <link rel="stylesheet" type="text/css" href="css/plugins-min.css">
     <link rel="stylesheet" type="text/css" href="css/main-min.css">
@@ -47,7 +55,8 @@
     <!-- Custom Browser Color End -->
 
     <!-- Début de widget de lien Calendly -->
-    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet"></noscript>
     <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" defer></script>
     <!-- Fin de widget de lien Calendly -->
 
