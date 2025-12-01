@@ -11,6 +11,12 @@
     <meta name="description" content="Freelance web à Reims spécialisé WordPress et WooCommerce. Création de sites internet sur-mesure pour entrepreneurs : e-commerce, marketplace, réservation. Expert web Reims.">
     <meta name="keywords" content="freelance reims, web reims, wordpress reims, woocommerce reims, développeur web reims, création site web reims, chef de projet web, ecommerce reims, guillaume pelletier, marketplace, développeur wordpress, expert woocommerce">
     <meta name="author" content="Guillaume Pelletier">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <link rel="canonical" href="https://dontbe.cool/">
+    
+    <!-- Hreflang Tags for Language Versions -->
+    <link rel="alternate" hreflang="fr" href="https://dontbe.cool/">
+    <link rel="alternate" hreflang="x-default" href="https://dontbe.cool/">
 
     <!-- Viewport Meta-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -32,13 +38,25 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap">
 
     <!-- Facebook Metadata Start -->
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:width" content="1200">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="fr_FR">
     <meta property="og:title" content="Freelance Web Reims | WordPress & WooCommerce - Guillaume Pelletier">
     <meta property="og:description" content="Freelance web à Reims spécialisé WordPress et WooCommerce. Création de sites internet sur-mesure pour entrepreneurs : e-commerce, marketplace, réservation. Expert web Reims.">
     <meta property="og:url" content="https://dontbe.cool/">
-    <meta property="og:image" content="img/og-image.jpg">
+    <meta property="og:image" content="https://dontbe.cool/img/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
     <!-- Facebook Metadata End -->
+    
+    <!-- Twitter Metadata Start -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Freelance Web Reims | WordPress & WooCommerce - Guillaume Pelletier">
+    <meta name="twitter:description" content="Freelance web à Reims spécialisé WordPress et WooCommerce. Création de sites internet sur-mesure pour entrepreneurs : e-commerce, marketplace, réservation.">
+    <meta name="twitter:image" content="https://dontbe.cool/img/og-image.jpg">
+    <!-- Twitter Metadata End -->
+
+    <!-- Preload Hero Image for LCP Optimization -->
+    <link rel="preload" href="img/services/hero-01.avif" as="image" type="image/avif">
 
     <!-- Template Styles Start -->
     <link rel="preload" href="css/loaders/loader-min.css" as="style">
@@ -70,18 +88,26 @@
     {
       "@context": "https://schema.org",
       "@type": "ProfessionalService",
+      "@id": "https://dontbe.cool/",
       "name": "Guillaume Pelletier - Freelance Web Reims",
       "image": "https://dontbe.cool/img/og-image.jpg",
       "description": "Freelance web à Reims spécialisé WordPress et WooCommerce. Création de sites internet sur-mesure pour entrepreneurs : e-commerce, marketplace, réservation.",
+      "url": "https://dontbe.cool/",
+      "telephone": "+33769927005",
+      "priceRange": "$$",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Reims",
         "addressRegion": "Grand Est",
-        "addressCountry": "FR"
+        "addressCountry": "FR",
+        "postalCode": "51100"
       },
-      "url": "https://dontbe.cool/",
-      "telephone": "",
-      "priceRange": "$$",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Customer Service",
+        "telephone": "+33769927005",
+        "url": "https://calendly.com/dontbecool/avant-vente"
+      },
       "geo": {
         "@type": "GeoCoordinates",
         "latitude": 49.2583,
@@ -96,10 +122,131 @@
         },
         "geoRadius": "50000"
       },
-      "serviceType": ["Création site web", "WordPress", "WooCommerce", "E-commerce", "Développement web"],
-      "knowsAbout": ["WordPress", "WooCommerce", "E-commerce", "Marketplace", "Web Development", "SEO"],
+      "serviceType": ["Création site web", "WordPress", "WooCommerce", "E-commerce", "Développement web", "Web Design", "Web Development"],
+      "knowsAbout": ["WordPress", "WooCommerce", "E-commerce", "Marketplace", "Web Development", "SEO", "Web Design"],
       "sameAs": [
+        "https://www.linkedin.com/in/guillaumepelletier1/",
         "https://dontbe.cool/"
+      ]
+    }
+    </script>
+
+    <!-- Breadcrumb Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://dontbe.cool/#home"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Portfolio",
+          "item": "https://dontbe.cool/#portfolio"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "À propos",
+          "item": "https://dontbe.cool/#about"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Services",
+          "item": "https://dontbe.cool/#services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Parcours",
+          "item": "https://dontbe.cool/#resume"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Contact",
+          "item": "https://dontbe.cool/#contact"
+        }
+      ]
+    }
+    </script>
+
+    <!-- FAQ Schema.org for Featured Snippets (Position Zéro) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quel est le coût d'un site WordPress sur-mesure ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Le tarif d'un site WordPress varie selon la complexité du projet. Pour un site vitrine simple, comptez entre 1 500€ et 3 000€. Pour un e-commerce WooCommerce, les tarifs démarrent à partir de 2 500€. Pour un marketplace ou un site avec des fonctionnalités avancées, les devis sont personnalisés selon vos besoins. Je propose des consultations gratuites pour évaluer votre projet et vous fournir un devis adapté."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Combien de temps pour créer un site WordPress ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Le délai de création d'un site WordPress dépend de sa complexité. Un site vitrine peut prendre 1 mois à être mis en ligne. Un e-commerce WooCommerce avec intégration de paiement : 2 mois. Un marketplace ou un site avec des fonctionnalités sur-mesure : entre 2 et 3 mois. Ces délais incluent la conception, le développement, les tests et la formation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Proposez-vous du support après la mise en ligne ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui, après la mise en ligne, je fournis un mois de support gratuit pour corriger les bugs mineurs et optimiser les performances. Par la suite, je peux proposer un support à la demande selon vos besoins."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Travaillez-vous uniquement sur WordPress ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Je suis spécialisé en WordPress et WooCommerce, mais je maîtrise également les langages statiques (Hugo, Jekyll...), mais également React pour les projets nécessitant des technologies frontend modernes. WordPress reste cependant ma solution de prédilection car elle offre un excellent rapport qualité-performance pour la plupart des projets e-commerce et sites d'entreprise."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Est-ce que mon site sera optimisé pour le SEO ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui, l'optimisation SEO est intégrée dès la création. Je configure WordPress pour les bonnes pratiques SEO : structure du site, balises meta, données structurées schema.org, performance optimisée (Core Web Vitals), responsive design mobile-first, sécurité HTTPS, et sitemap XML."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pouvez-vous intégrer un système de paiement sur mon site ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolument. Je configure et intègre Stripe, PayPal ou d'autres solutions de paiement selon vos besoins. Pour un e-commerce WooCommerce, j'intègre le gestionnaire de paiements adapté à votre modèle commercial (paiement unique, abonnement, marketplace multi-vendeur). Je gère aussi les conventions de facturation et la conformité RGPD."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Livrez-vous une formation sur l'utilisation du site ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui, la formation client est incluse dans mes projets. Je fournis une documentation et une séance de formation en ligne pour apprendre à gérer le contenu, les produits, les utilisateurs, et les paramètres clés de votre site. Je reste disponible pour répondre à vos questions après la mise en ligne."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Travaillez-vous avec des clients à distance ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui, je travaille avec des clients partout en France et à l'international. Basé à Reims, je propose des consultations en vidéo, des rapports détaillés et une communication régulière par email. Cela n'impacte pas la qualité du projet. Nous avons des points de suivi réguliers pour garantir que le projet avance selon votre vision."
+          }
+        }
       ]
     }
     </script>
@@ -173,7 +320,7 @@
     <div class="logo loading__fade">
       <a href="#home" class="logo__link">
         
-        <img src="img/favicon/favicon.avif" alt="" width="125" height="125" loading="eager" style="object-fit:contain;
+        <img src="img/favicon/favicon.avif" alt="Logo dontbe.cool - Guillaume Pelletier Freelance Web" width="125" height="125" loading="eager" style="object-fit:contain;
             width:50px;
             height:auto;">
         <!-- logo text -->
@@ -612,7 +759,7 @@
                                         <div class="fauthor__info d-flex flex-column justify-content-center">
                                           <h4 class="fauthor__name">Karolle-Anne Taillé</h4>
                                           <p class="fauthor__position small">Fondatrice de 
-                                            <a class="link-small-underline" href="https://www.kaacouture.com" target="_blank">kaacouture.com</a>
+                                            <a class="link-small-underline" href="https://www.kaacouture.com" target="_blank" rel="noopener noreferrer">kaacouture.com</a>
                                           </p>
                                           <div class="fauthor__rating d-flex">
                                             <i class="ph-fill ph-star"></i>
@@ -915,7 +1062,7 @@
                                         <div class="fauthor__info d-flex flex-column justify-content-center">
                                           <h4 class="fauthor__name">Oscar De Poncins</h4>
                                           <p class="fauthor__position small">Co-fondateur de  
-                                            <a class="link-small-underline" href="https://www.frenchr.com" target="_blank">frenchr.com</a>
+                                            <a class="link-small-underline" href="https://www.frenchr.com" target="_blank" rel="noopener noreferrer">frenchr.com</a>
                                           </p>
                                           <div class="fauthor__rating d-flex">
                                             <i class="ph-fill ph-star"></i>
@@ -1218,7 +1365,7 @@
                                         <div class="fauthor__info d-flex flex-column justify-content-center">
                                           <h4 class="fauthor__name">Monique Chartrand</h4>
                                           <p class="fauthor__position small">Directrice de
-                                            <a class="link-small-underline" href="https://www.communautique.quebec" target="_blank">communautique.quebec</a>
+                                            <a class="link-small-underline" href="https://www.communautique.quebec" target="_blank" rel="noopener noreferrer">communautique.quebec</a>
                                           </p>
                                           <div class="fauthor__rating d-flex">
                                             <i class="ph-fill ph-star"></i>
@@ -1241,7 +1388,7 @@
                                         <div class="fauthor__info d-flex flex-column justify-content-center">
                                           <h4 class="fauthor__name">Aurore Guillot</h4>
                                           <p class="fauthor__position small">Fondatrice de
-                                            <a class="link-small-underline" href="https://www.fullpranayoga.com" target="_blank">fullpranayoga.com</a>
+                                            <a class="link-small-underline" href="https://www.fullpranayoga.com" target="_blank" rel="noopener noreferrer">fullpranayoga.com</a>
                                           </p>
                                           <div class="fauthor__rating d-flex">
                                             <i class="ph-fill ph-star"></i>
@@ -1824,7 +1971,7 @@
                                         <div class="fauthor__info d-flex flex-column justify-content-center">
                                           <h4 class="fauthor__name">Romain Plagnard</h4>
                                           <p class="fauthor__position small">Co-gérant de 
-                                            <a class="link-small-underline" href="https://menuiserie-fenetre.fr/" target="_blank">menuiserie-fenetre.fr</a>
+                                            <a class="link-small-underline" href="https://menuiserie-fenetre.fr/" target="_blank" rel="noopener noreferrer">menuiserie-fenetre.fr</a>
                                           </p>
                                           <div class="fauthor__rating d-flex">
                                             <i class="ph-fill ph-star"></i>
@@ -1847,7 +1994,7 @@
                                         <div class="fauthor__info d-flex flex-column justify-content-center">
                                           <h4 class="fauthor__name">Dominique BRUGEROLLE de FRAISSINETTE</h4>
                                           <p class="fauthor__position small">Fondateur de 
-                                            <a class="link-small-underline" href="https://www.lasercleaning.ch" target="_blank">lasercleaning.ch</a>
+                                            <a class="link-small-underline" href="https://www.lasercleaning.ch" target="_blank" rel="noopener noreferrer">lasercleaning.ch</a>
                                           </p>
                                           <div class="fauthor__rating d-flex">
                                             <i class="ph-fill ph-star"></i>
@@ -1956,7 +2103,7 @@
                             </div>
                             <div class="about-info__item animate-in-up">
                               <h6>
-                                <a class="link-inline text-link" href="https://maps.app.goo.gl/eNJxQT85AZaoNU9j9" target="_blank">Reims, France</a>
+                                <a class="link-inline text-link" href="https://maps.app.goo.gl/eNJxQT85AZaoNU9j9" target="_blank" rel="noopener noreferrer">Reims, France</a>
                               </h6>
                             </div>
                           </div>
@@ -1974,42 +2121,42 @@
                               <!-- tools single item -->
                               <div class="tools-cards__item-l d-flex grid-item animate-card-6">
                                 <div class="tools-cards__card">
-                                  <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/features/target.avif" alt="Tools Icon">
+                                  <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/features/target.avif" alt="Icône cible - Cadrage projet complet">
                                   <h6 class="tools-cards__caption tagline-tool animate-in-up">un cadrage projet complet<small class="small">après une analyse approfondie des besoins</small></h6>
                                 </div>
                               </div>
                               <!-- tools single item -->
                               <div class="tools-cards__item-l d-flex grid-item animate-card-6">
                                 <div class="tools-cards__card">
-                                  <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/features/calender.avif" alt="Tools Icon">
+                                  <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/features/calender.avif" alt="Icône calendrier - Suivi agile de l'avancement">
                                   <h6 class="tools-cards__caption tagline-tool animate-in-up">un suivi agile de l'avancement<small class="small">avec un Kanban et un site en pré-production</small></h6>
                                 </div>
                               </div>
                               <!-- tools single item -->
                               <div class="tools-cards__item-l d-flex grid-item animate-card-6">
                                 <div class="tools-cards__card">
-                                  <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/features/flash.avif" alt="Tools Icon">
+                                  <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/features/flash.avif" alt="Icône éclair - Animations d'ateliers">
                                   <h6 class="tools-cards__caption tagline-tool animate-in-up">des animations d'ateliers <small class="small">de créativité et de résolution de problèmes</small></h6>
                                 </div>
                               </div>
                               <!-- tools single item -->
                               <div class="tools-cards__item-l d-flex grid-item animate-card-6">
                                 <div class="tools-cards__card">
-                                  <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/features/chat-bubble.avif" alt="Tools Icon">
+                                  <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/features/chat-bubble.avif" alt="Icône bulle de dialogue - Gestion collaborative">
                                   <h6 class="tools-cards__caption tagline-tool animate-in-up">une gestion collaborative <small class="small">avec des équipes multidisciplinaires</small></h6>
                                 </div>
                               </div>
                               <!-- tools single item -->
                               <div class="tools-cards__item-l d-flex grid-item animate-card-6">
                                 <div class="tools-cards__card">
-                                  <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/features/lab.avif" alt="Tools Icon">
+                                  <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/features/lab.avif" alt="Icône laboratoire - Tests méthodiques">
                                   <h6 class="tools-cards__caption tagline-tool animate-in-up">des tests <small class="small">méthodiques et rigoureux</small></h6>
                                 </div>
                               </div>
                               <!-- tools single item -->
                               <div class="tools-cards__item-l d-flex grid-item animate-card-6">
                                 <div class="tools-cards__card">
-                                  <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/features/folder.avif" alt="Tools Icon">
+                                  <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/features/folder.avif" alt="Icône dossier - Formation client sur mesure">
                                   <h6 class="tools-cards__caption tagline-tool animate-in-up">une formation client <small class="small">sur mesure</small></h6>
                                 </div>
                               </div>
@@ -2059,6 +2206,8 @@
                       </div>
                       <div class="item image image-1">
                         <img loading="lazy" 
+                          width="1630"
+                          height="800"
                           sizes="(max-width: 1630px) 100vw, 1630px"
                           srcset="
                           img/works/portfolio-fullpranayoga.com-accueil_bpvuyu_c_scale,w_240.avif 240w,
@@ -2073,6 +2222,8 @@
                       </div>
                       <div class="item image image-2">
                         <img loading="lazy" 
+                          width="1630"
+                          height="800"
                           sizes="(max-width: 1630px) 100vw, 1630px"
                           srcset="
                           img/works/portfolio-campuseagles.com-accueil_mghmes_c_scale,w_240.avif 240w,
@@ -2087,6 +2238,8 @@
                       </div>
                       <div class="item image image-3">
                         <img loading="lazy" 
+                          width="1630"
+                          height="800"
                           sizes="(max-width: 1630px) 100vw, 1630px"
                           srcset="
                           img/works/portfolio-fab16.org-accueil_kfozad_c_scale,w_240.avif 240w,
@@ -2101,6 +2254,8 @@
                       </div>
                       <div class="item image image-4">
                         <img loading="lazy" 
+                          width="1630"
+                          height="800"
                           sizes="(max-width: 1630px) 100vw, 1630px"
                           srcset="
                           img/works/portfolio-fabcity-montreal-home_mexvon_c_scale,w_240.avif 240w,
@@ -2115,6 +2270,8 @@
                       </div>
                       <div class="item image image-5">
                         <img loading="lazy" 
+                          width="1630"
+                          height="800"
                           sizes="(max-width: 1630px) 100vw, 1630px"
                           srcset="
                           img/works/portfolio-pingcommunautique.quebec-accueil_c1fe5q_c_scale,w_240.avif 240w,
@@ -2129,6 +2286,8 @@
                       </div>
                       <div class="item image image-6">
                         <img loading="lazy" 
+                          width="1630"
+                          height="800"
                           sizes="(max-width: 1630px) 100vw, 1630px"
                           srcset="
                           img/works/summitfabcity-montrealquebec-home-portfolio_akgr5z_c_scale,w_240.avif 240w,
@@ -2143,6 +2302,8 @@
                       </div>
                       <div class="item image image-7">
                         <img loading="lazy" 
+                          width="645"
+                          height="350"
                           sizes="(max-width: 645px) 100vw, 645px"
                           srcset="
                           img/works/ecologisenergiesfr-accueil-portfolio_r0shwy_c_scale,w_240.avif 240w,
@@ -2578,7 +2739,7 @@
                         <div class="col-12 col-md-6">
                           <p class="resume-lines-number__date type-basic-160lh animate-in-up">2011 - 2012</p>
                           <p class="resume-lines-number__descr type-basic-160lh animate-in-up">Management de l’innovation | Management de projets | Stratégie | Atelier de créativité | Financement de projets</p>
-                          <a class="resume-lines-number__source link-small-underline animate-in-up" href="https://dauphine.psl.eu/formations/masters/management-innovation/m2-management-de-la-technologie-et-de-innovation" target="_blank">Paris Dauphine, Ecole des Mines</a>
+                          <a class="resume-lines-number__source link-small-underline animate-in-up" href="https://dauphine.psl.eu/formations/masters/management-innovation/m2-management-de-la-technologie-et-de-innovation" target="_blank" rel="noopener noreferrer">Paris Dauphine, Ecole des Mines</a>
                         </div>
                       </div>
                       <div class="resume-divider animate-in-up"></div>
@@ -2597,7 +2758,7 @@
                         <div class="col-12 col-md-6">
                           <p class="resume-lines-number__date type-basic-160lh animate-in-up">2005 - 2008</p>
                           <p class="resume-lines-number__descr type-basic-160lh animate-in-up">Formation technique | Gestion de projets scientifiques</p>
-                          <a class="resume-lines-number__source link-small-underline animate-in-up" href="https://www.polytech.universite-paris-saclay.fr/formation/photonique-et-systemes-optroniques" target="_blank">Polytech Paris-Saclay</a>
+                          <a class="resume-lines-number__source link-small-underline animate-in-up" href="https://www.polytech.universite-paris-saclay.fr/formation/photonique-et-systemes-optroniques" target="_blank" rel="noopener noreferrer">Polytech Paris-Saclay</a>
                         </div>
                       </div>
                     <!-- Resume Lines V1 End -->
@@ -2651,7 +2812,7 @@
                             <b>Réalisations :</b> 4 projets gérés pour le même client depuis 8 ans. Entre 4 et 10 projets/an (dont 2 de plus d’un an, avant rachat ou levée de fonds importante).
                           </p>
                           <p class="resume-lines-number__source small animate-in-up">
-                            <a class="link-small-underline" href="https://dontbe.cool/" target="_blank">dontbe.cool ↗</a>
+                            <a class="link-small-underline" href="https://dontbe.cool/" target="_blank" rel="noopener noreferrer">dontbe.cool ↗</a>
                           </p>
                         </div>
                       </div>
@@ -2681,7 +2842,7 @@
                           </ul>
                           <br \>
                           <p class="resume-lines-number__source small animate-in-up">
-                            <a class="link-small-underline" href="https://kowabonga.co/" target="_blank">kowabonga ↗</a>
+                            <a class="link-small-underline" href="https://kowabonga.co/" target="_blank" rel="noopener noreferrer">kowabonga ↗</a>
                           </p>
                         </div>
                       </div>
@@ -2711,7 +2872,7 @@
                           </ul>
                           <br \>
                           <p class="resume-lines-number__source small animate-in-up">
-                            <a class="link-small-underline" href="https://www.f-initiatives.com/" target="_blank">F.Iniciativas ↗</a>
+                            <a class="link-small-underline" href="https://www.f-initiatives.com/" target="_blank" rel="noopener noreferrer">F.Iniciativas ↗</a>
                           </p>
                         </div>
                       </div>
@@ -2736,8 +2897,8 @@
                       <!-- tools single item -->
                       <div class="tools-cards__item d-flex grid-item animate-card-4">
                         <div class="tools-cards__card">
-                          <a href="https://wordpress.org/" target="_blank">
-                            <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/icons/icon-wordpress.svg" alt="Tools Icon">
+                          <a href="https://wordpress.org/" target="_blank" rel="noopener noreferrer">
+                            <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/icons/icon-wordpress.svg" alt="Logo WordPress - Plateforme CMS">
                             <h6 class="tools-cards__caption tagline-tool animate-in-up">WordPress</h6>
                           </a>
                         </div>
@@ -2745,8 +2906,8 @@
                       <!-- tools single item -->
                       <div class="tools-cards__item d-flex grid-item animate-card-4">
                         <div class="tools-cards__card">
-                          <a href="https://woocommerce.com/fr/" target="_blank">
-                            <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/icons/icon-woocommerce.svg" alt="Tools Icon">
+                          <a href="https://woocommerce.com/fr/" target="_blank" rel="noopener noreferrer">
+                            <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/icons/icon-woocommerce.svg" alt="Logo WooCommerce - Plugin e-commerce">
                             <h6 class="tools-cards__caption tagline-tool animate-in-up">Woo Commerce <small class="small">plugin métier Ecommerce</small></h6>
                           </a>
                         </div>
@@ -2754,8 +2915,8 @@
                       <!-- tools single item -->
                       <div class="tools-cards__item d-flex grid-item animate-card-4">
                         <div class="tools-cards__card">
-                          <a href="https://dokan.co/fr/wordpress/" target="_blank">
-                            <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/icons/icon-dokan.svg" alt="Tools Icon">
+                          <a href="https://dokan.co/fr/wordpress/" target="_blank" rel="noopener noreferrer">
+                            <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/icons/icon-dokan.svg" alt="Logo Dokan - Plugin marketplace">
                             <h6 class="tools-cards__caption tagline-tool animate-in-up">Dokan <small class="small">plugin métier Marketplace</small></h6>
                           </a>
                         </div>
@@ -2763,8 +2924,8 @@
                       <!-- tools single item -->
                       <div class="tools-cards__item d-flex grid-item animate-card-4">
                         <div class="tools-cards__card">
-                          <a href="https://theeventscalendar.com/" target="_blank">
-                            <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/icons/icon-theeventscalendar.avif" alt="Tools Icon">
+                          <a href="https://theeventscalendar.com/" target="_blank" rel="noopener noreferrer">
+                            <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/icons/icon-theeventscalendar.avif" alt="Logo The Events Calendar - Plugin événements">
                             <h6 class="tools-cards__caption tagline-tool animate-in-up">The Events Calendar <small class="small">plugin métier Réservation</small></h6>
                           </a>
                         </div>
@@ -2772,8 +2933,8 @@
                       <!-- tools single item -->
                       <div class="tools-cards__item d-flex grid-item animate-card-4">
                         <div class="tools-cards__card">
-                          <a href="https://www.paidmembershipspro.com/" target="_blank">
-                            <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/icons/icon-pmpro.avif" alt="Tools Icon">
+                          <a href="https://www.paidmembershipspro.com/" target="_blank" rel="noopener noreferrer">
+                            <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/icons/icon-pmpro.avif" alt="Logo Paid Memberships Pro - Plugin abonnement">
                             <h6 class="tools-cards__caption tagline-tool animate-in-up">PMPro <small class="small">plugin métier Abonnement</small></h6>
                           </a>
                         </div>
@@ -2781,8 +2942,8 @@
                       <!-- tools single item -->
                       <div class="tools-cards__item d-flex grid-item animate-card-4">
                         <div class="tools-cards__card">
-                          <a href="https://www.o2switch.fr/" target="_blank">
-                            <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/icons/icon-o2switch.webp" alt="Tools Icon">
+                          <a href="https://www.o2switch.fr/" target="_blank" rel="noopener noreferrer">
+                            <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/icons/icon-o2switch.webp" alt="Logo O2Switch - Hébergement web français">
                             <h6 class="tools-cards__caption tagline-tool animate-in-up">Hébergement Serveur</h6>
                           </a>
                         </div>
@@ -2790,8 +2951,8 @@
                       <!-- tools single item -->
                       <div class="tools-cards__item d-flex grid-item animate-card-4">
                         <div class="tools-cards__card">
-                          <a href="https://github.com/" target="_blank">
-                            <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/icons/icon-github.svg" alt="Tools Icon">
+                          <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                            <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/icons/icon-github.svg" alt="Logo GitHub - Plateforme de développement">
                             <h6 class="tools-cards__caption tagline-tool animate-in-up">GitHub <small class="small">outil de gestion de code</small></h6>
                           </a>
                         </div>
@@ -2799,8 +2960,8 @@
                       <!-- tools single item -->
                       <div class="tools-cards__item d-flex grid-item animate-card-4">
                         <div class="tools-cards__card">
-                          <a href="https://www.php.net/" target="_blank">
-                            <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/icons/icon-php.svg" alt="Tools Icon">
+                          <a href="https://www.php.net/" target="_blank" rel="noopener noreferrer">
+                            <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/icons/icon-php.svg" alt="Logo PHP - Langage de programmation">
                             <h6 class="tools-cards__caption tagline-tool animate-in-up">PHP <small class="small">langage de programmation</small></h6>
                           </a>
                         </div>
@@ -2808,8 +2969,8 @@
                       <!-- tools single item -->
                       <div class="tools-cards__item d-flex grid-item animate-card-4">
                         <div class="tools-cards__card">
-                          <a href="https://fr.react.dev/" target="_blank">
-                            <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/icons/icon-react.svg" alt="Tools Icon">
+                          <a href="https://fr.react.dev/" target="_blank" rel="noopener noreferrer">
+                            <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/icons/icon-react.svg" alt="Logo React - Bibliothèque JavaScript">
                             <h6 class="tools-cards__caption tagline-tool animate-in-up">React <small class="small">langage de programmation</small></h6>
                           </a>
                         </div>
@@ -2818,7 +2979,7 @@
                       <div class="tools-cards__item d-flex grid-item animate-card-4">
                         <div class="tools-cards__card">
                           <a href="https://trello.com/fr" target="_blank">
-                            <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/icons/icon-trello.webp" alt="Tools Icon">
+                            <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/icons/icon-trello.webp" alt="Logo Trello - Outil de gestion de projet">
                             <h6 class="tools-cards__caption tagline-tool animate-in-up">Trello  <small class="small">outil simple de gestion de projet</small></h6>
                           </a>
                         </div>
@@ -2827,7 +2988,7 @@
                       <div class="tools-cards__item d-flex grid-item animate-card-4">
                         <div class="tools-cards__card">
                           <a href="https://www.figma.com/fr-fr/" target="_blank">
-                            <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/icons/icon-figma.svg" alt="Tools Icon">
+                            <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/icons/icon-figma.svg" alt="Logo Figma - Outil de design collaboratif">
                             <h6 class="tools-cards__caption tagline-tool animate-in-up">Figma <small class="small">outil de prototypage</small></h6>
                           </a>
                         </div>
@@ -2836,7 +2997,7 @@
                       <div class="tools-cards__item d-flex grid-item animate-card-4">
                         <div class="tools-cards__card">
                           <a href="https://cursor.com/" target="_blank">
-                            <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/icons/icon-cursor.svg" alt="Tools Icon">
+                            <img loading="lazy" class="tools-cards__icon animate-in-up" src="img/icons/icon-cursor.svg" alt="Logo Cursor - Éditeur de code avec IA">
                             <h6 class="tools-cards__caption tagline-tool animate-in-up">Cursor  <small class="small">IA pour code</small></h6>
                           </a>
                         </div>
@@ -3495,7 +3656,7 @@
                   <ul class="socials-lines d-flex flex-column">
                     <!-- socials lines single item -->
                     <li class="socials-lines__item">
-                      <a class="socials-lines__link d-flex align-items-center justify-content-between" href="https://www.linkedin.com/in/guillaumepelletier1/" target="_blank">
+                      <a class="socials-lines__link d-flex align-items-center justify-content-between" href="https://www.linkedin.com/in/guillaumepelletier1/" target="_blank" rel="noopener noreferrer">
                         <h4 class="animate-in-up">Linkedin</h4>
                         <div class="socials-lines__icon d-flex animate-in-up">
                           <i class="ph ph-arrow-up-right"></i>
@@ -4288,10 +4449,10 @@
     <!-- Bottom Background Images Start -->
     <div class="bottom__background bottom-bg-03">
       <div class="bottom-bg-03__01 animate-card-2">
-        <img src="./img/features/fire.avif" alt="Template background image" loading="lazy">
+        <img src="./img/features/fire.avif" alt="Élément de décoration - Flammes stylisées" loading="lazy">
       </div>
       <div class="bottom-bg-03__02 animate-card-2">
-        <img src="./img/features/fire.avif" alt="Template background image" loading="lazy">
+        <img src="./img/features/fire.avif" alt="Élément de décoration - Flammes stylisées" loading="lazy">
       </div>
     </div>
     <!-- Bottom Background Images End -->

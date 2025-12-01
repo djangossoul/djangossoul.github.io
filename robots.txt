@@ -1,0 +1,34 @@
+# Robots.txt for dontbe.cool
+# Règles pour tous les crawlers
+
+User-agent: *
+Allow: /
+Disallow: /js/
+Disallow: /css/
+Disallow: /img/
+Disallow: /*.json$
+Disallow: /?*
+Crawl-delay: 1
+
+# Référence au sitemap
+Sitemap: https://dontbe.cool/sitemap.xml
+
+# Règles spécifiques pour Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Règles spécifiques pour Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Bloquer les mauvais bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
